@@ -55,4 +55,4 @@ VENZARI builds the category of AI ownership.
 
 ---
 
-© 2026 VENZARI · Media Happi LLC · Delaware
+© 2026 VENZARI
