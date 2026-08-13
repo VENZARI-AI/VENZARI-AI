@@ -1,16 +1,43 @@
 # Own Your AI.
 
-> You have been renting your two most important tools — your engineering and your intelligence — without ever noticing. VENZARI exists to end that.
+> You have been renting your two most important tools — your engineering OS and your intelligence layer — without ever noticing. VENZARI exists to end that.
 
 ---
 
-## What We Build
+## Products
 
-| | Product | What it does | Install |
-|---|---------|-------------|---------|
-| 🛠️ | **[VENZARI CODE](https://venzari.co/products/venzari-code)** | Autonomous engineering agent. Governance-enforced. Self-improving. Runs in your repo, on your rules. | `npm install -g venzari-code` |
-| ⚙️ | **[VENZARI ENGINE](https://venzari.co/products/venzari-engine)** | Self-hosted AI infrastructure. 20-minute install. Local inference. No per-token billing. No cloud required. | `npm install -g venzari-engine` |
-| 🤖 | **[VENZARI AI AGENT](https://venzari.co/products/venzari-ai-agent)** | One agent. Every channel. Learns forever. Runs on your VPS. Never charges you per message. | `venzari install --product agent` |
+### 🛠️ [VENZARI CODE](https://venzari.co/products/venzari-code)
+**The autonomous engineering agent.**
+
+Governance-enforced. Self-improving. Runs in your repo, on your rules, with no cloud dependency.
+
+```bash
+npm install -g venzari-code
+venzari-code install
+```
+
+---
+
+### ⚙️ [VENZARI ENGINE](https://venzari.co/products/venzari-engine)
+**Self-hosted AI infrastructure.**
+
+20-minute install. Local LLM inference. Memory, automation, voice, and workflows — on your hardware, at flat cost.
+
+```bash
+npm install -g venzari-engine
+venzari-engine install
+```
+
+---
+
+### 🤖 [VENZARI AI AGENT](https://venzari.co/products/venzari-ai-agent)
+**One agent. Every channel. Learns forever.**
+
+Installs in under 6 minutes on any Linux VPS. Connects to Telegram, Discord, Slack, WhatsApp, and 20+ more. Never charges per message. Never sends your data out.
+
+```bash
+venzari install --product agent
+```
 
 ---
 
@@ -18,28 +45,37 @@
 
 Everyone else sells you a piece. VENZARI sells you the whole exit.
 
-- Your **code** runs on infrastructure you own
-- Your **AI** runs on models you control  
-- Your **agent** lives on your server, learns from your work, answers on your channels
-- Your **data** never leaves
-
-Start with the pain you can already feel. Add the rest when ownership becomes obvious.
+| What others do | What VENZARI does |
+|---|---|
+| Bill you per token | Flat monthly fee |
+| Run on their servers | Runs on your hardware |
+| Forget between sessions | Learns forever — three-layer memory |
+| Lock you to one channel | Telegram + Discord + Slack + 20 more |
+| Control your data | Your data never leaves your server |
 
 ---
 
-## Two Open Source Components
+## Open Source
 
-| | Repo | What it is |
-|---|------|-----------|
-| 🦅 | **[hermes-agent](https://github.com/VENZARI-AI/hermes-agent)** | The AI brain inside VENZARI AI AGENT |
-| 🔗 | **[openclaw](https://github.com/VENZARI-AI/openclaw)** | The channel gateway (Telegram, Discord, Slack, and 20+ more) |
+Two components are open source. Everything else is commercial and proprietary.
 
-All other product code is private and proprietary.
+| Repo | What it is |
+|------|-----------|
+| **[hermes-agent](https://github.com/VENZARI-AI/hermes-agent)** | AI brain powering VENZARI AI AGENT |
+| **[openclaw](https://github.com/VENZARI-AI/openclaw)** | Channel gateway — Telegram, Discord, Slack, and 20+ more |
 
 ---
 
 ## Links
 
-**[venzari.co](https://venzari.co)** · **[docs.venzari.co](https://docs.venzari.co)** · **[support@venzari.co](mailto:support@venzari.co)**
+| | |
+|---|---|
+| 🌐 Website | [venzari.co](https://venzari.co) |
+| 📚 Docs | [docs.venzari.co](https://docs.venzari.co) |
+| 💰 Pricing | [venzari.co/pricing](https://venzari.co/pricing) |
+| 🤖 AI AGENT | [agent.venzari.co](https://agent.venzari.co) |
+| 📧 Support | [support@venzari.co](mailto:support@venzari.co) |
 
-© 2026 VENZARI · Media Happi LLC · Delaware
+---
+
+© 2026 VENZARI · Media Happi LLC · Delaware, USA
