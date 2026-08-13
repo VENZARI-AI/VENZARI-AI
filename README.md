@@ -45,13 +45,11 @@ Custom deployment, SLA support, dedicated infrastructure, and direct access to t
 
 ## Company
 
-VENZARI builds the category of AI ownership.
-
 - 🌐 [venzari.co](https://venzari.co)
 - 📚 [docs.venzari.co](https://docs.venzari.co)
-- 💼 [Careers](https://venzari.co/careers)
-- 🏢 [About](https://venzari.co/about)
-- 📧 [Contact](https://venzari.co/contact) · support@venzari.co
+- 💼 [Careers](https://venzari.co/jobs)
+- 🏢 [About](https://venzari.co/solutions)
+- 📧 [Contact](mailto:venzariai@gmail.com)
 
 ---
 
