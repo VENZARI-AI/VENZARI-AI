@@ -1,284 +1,212 @@
 <div align="center">
-  <pre align="center" style="color:#3251fc;background:#0d0d0d;padding:16px;border-radius:8px;font-size:12px">
+
+<pre align="center" style="color:#3251fc;background:#0d0d0d;padding:20px;border-radius:10px;font-size:12px;display:inline-block">
 ██╗   ██╗███████╗███╗   ██╗███████╗ █████╗ ██████╗ ██╗
 ██║   ██║██╔════╝████╗  ██║╚══███╔╝██╔══██╗██╔══██╗██║
 ██║   ██║█████╗  ██╔██╗ ██║  ███╔╝ ███████║██████╔╝██║
 ╚██╗ ██╔╝██╔══╝  ██║╚██╗██║ ███╔╝  ██╔══██║██╔══██╗██║
  ╚████╔╝ ███████╗██║ ╚████║███████╗██║  ██║██║  ██║██║
   ╚═══╝  ╚══════╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝
-  </pre>
+</pre>
 
-  <h1 style="font-family:'Unbounded',sans-serif;font-size:clamp(3rem,8vw,5rem);font-weight:800;color:#FDFBF9;letter-spacing:-0.02em;margin:1rem 0;">
-    VENZARI
-  </h1>
-  <p style="font-family:'Poppins',sans-serif;font-size:1.25rem;color:rgba(253,251,249,.6);line-height:1.6;max-width:600px;margin:0 auto 2rem;">
-    You have been renting your AI.
-  </p>
+<br/>
 
-  <p>
-    <a href="https://venzari.co/code"><img src="https://img.shields.io/badge/VENZARI%20CODE-Engineering%20OS-A259FF?style=for-the-badge" alt="VENZARI CODE"/></a>
-    <a href="https://venzari.co/engine"><img src="https://img.shields.io/badge/VENZARI%20ENGINE-Private%20AI-C1FF00?style=for-the-badge" alt="VENZARI ENGINE"/></a>
-    <a href="https://venzari.co/products/venzari-ai-agent"><img src="https://img.shields.io/badge/VENZARI%20AI%20AGENT-Persistent-3254FC?style=for-the-badge" alt="VENZARI AI AGENT"/></a>
-    <a href="https://venzari.co/together"><img src="https://img.shields.io/badge/VENZARI%20TOGETHER-One%20Stack-3254FC?style=for-the-badge" alt="VENZARI TOGETHER"/></a>
-    <a href="https://venzari.co/enterprise"><img src="https://img.shields.io/badge/ENTERPRISE-White%20Label-FF38D4?style=for-the-badge" alt="VENZARI ENTERPRISE"/></a>
-  </p>
-  <p>
-    <a href="https://venzari.co"><img src="https://img.shields.io/badge/venzari.co-3251fc?style=for-the-badge" alt="Website"/></a>
-    <a href="https://install.venzari.xyz"><img src="https://img.shields.io/badge/install-3251fc?style=for-the-badge" alt="Install"/></a>
-    <a href="https://docs.venzari.co"><img src="https://img.shields.io/badge/docs-5EE7FF?style=for-the-badge" alt="Docs"/></a>
-    <a href="https://discord.gg/venzari"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/></a>
-  </p>
+<blockquote align="center">
+<p style="font-family:'Unbounded',sans-serif;font-size:1.4rem;font-weight:800;color:#FDFBF9;letter-spacing:-.02em;line-height:1.4;max-width:700px;margin:0 auto">
+You have been renting your AI.
+</p>
+</blockquote>
+
+<br/>
+
+<p align="center">
+  <a href="https://venzari.co/code"><img src="https://img.shields.io/badge/CODE-Engineering%20OS-A259FF?style=for-the-badge" alt="CODE"/></a>
+  <a href="https://venzari.co/engine"><img src="https://img.shields.io/badge/ENGINE-Private%20AI-C1FF00?style=for-the-badge&logoColor=000" alt="ENGINE"/></a>
+  <a href="https://venzari.co/products/venzari-ai-agent"><img src="https://img.shields.io/badge/AI%20AGENT-Persistent-3254FC?style=for-the-badge" alt="AGENT"/></a>
+  <a href="https://venzari.co/together"><img src="https://img.shields.io/badge/TOGETHER-One%20Stack-3254FC?style=for-the-badge" alt="TOGETHER"/></a>
+  <a href="https://venzari.co/enterprise"><img src="https://img.shields.io/badge/ENTERPRISE-FF38D4?style=for-the-badge" alt="ENTERPRISE"/></a>
+</p>
+<p align="center">
+  <a href="https://venzari.co"><img src="https://img.shields.io/badge/venzari.co-3251fc?style=flat-square" alt="Website"/></a>
+  <a href="https://install.venzari.xyz"><img src="https://img.shields.io/badge/install-3251fc?style=flat-square" alt="Install"/></a>
+  <a href="https://docs.venzari.co"><img src="https://img.shields.io/badge/docs-5EE7FF?style=flat-square" alt="Docs"/></a>
+  <a href="https://venzari.co/pricing"><img src="https://img.shields.io/badge/from%20%2429%2Fmo-C1FF00?style=flat-square&logoColor=000" alt="Pricing"/></a>
+  <a href="https://discord.gg/venzari"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord"/></a>
+</p>
+
 </div>
 
 ---
 
-## The Moment You Notice
+Every day, you open a chat with an AI.
 
-You're working on something important. You open a chat with an AI. You explain your project — the architecture, the constraints, the decisions you've made, the problems you're trying to solve. Twenty minutes of context.
+You explain your context. Your architecture. The decisions you've made. The problem you're trying to solve. You do good work together. You close the tab.
 
-The AI helps. It's useful. You make progress.
+Tomorrow, you do it again. From scratch.
 
-You close the tab.
+This is the deal you've accepted with cloud AI: **intelligence without memory, power without ownership, capability without privacy.** Every prompt is a transaction. Every conversation is disposable. And every month, you pay for the privilege.
 
-Tomorrow, you open it again. And you explain everything from scratch. The architecture. The constraints. The decisions. The problems. Twenty minutes. Again.
-
-**You have been renting your AI.** And like every rental, you're paying by the use, you own nothing at the end, and the moment you stop paying, you have nothing.
+VENZARI is a different deal.
 
 ---
 
-## The Alternative
+## VENZARI CODE
 
-What if your AI lived on your hardware? What if it remembered every conversation, every decision, every piece of code it ever worked on — permanently? What if it learned from your corrections and never made the same mistake twice? What if the data never left your server because there was no mechanism for it to leave?
-
-What if you owned it?
-
-Not a subscription to someone else's intelligence. Your own AI, on your own hardware, with your own data, building your own future.
-
-That's VENZARI.
+> *"Not a better coding assistant. The governance substrate on which AI-assisted development runs."*
+>
+> **[venzari.co/code](https://venzari.co/code)** · `curl -fsSL https://install.venzari.xyz | bash`
 
 ---
 
-## VENZARI CODE — The Governance Substrate
+AI coding tools are suggestions machines. They suggest code. They suggest approaches. They suggest fixes. You accept or reject. Whatever happens next is your responsibility — there's no memory of why a decision was made, no evidence that the code was tested, no record of what the AI did to get there.
 
-> [venzari.co/code](https://venzari.co/code)
+VENZARI CODE is built on a different premise: **engineering has phases, and each phase requires different tools, different permissions, and different evidence.**
 
-AI coding tools are powerful. They're also ungoverned. They hallucinate, loop, and do things you didn't ask — and there's no record of what happened. "AI-generated code" in your commit history is all the explanation you get.
+You cannot commit code in Discover mode. You cannot run git operations in Validate mode. You cannot write files in Review mode. The modes enforce the workflow at the system call level — not by prompt, not by suggestion.
 
-VENZARI CODE is not a better coding assistant. It is the **operating system** that governs how AI interacts with your codebase. Thirteen operating modes enforce a workflow that mirrors how engineering actually works: discover before planning, plan before implementing, validate before reviewing, review before committing.
-
-Every action is logged. Every output requires evidence. Loops are detected and stopped. Corrections become rules. The AI works within your project's patterns because it reads them before every action. It remembers your codebase across sessions because the memory is local, persistent, and project-scoped.
-
-**1,508 tests prove it works.** It's not a tool that suggests code — it's the layer that decides when and how AI is allowed to touch your code at all.
-
-### The 13 Modes
-
-**Discover** → scan, read, understand. Write nothing. Execute nothing. Pure observation.
-
-**Plan** → write the approach as a document. No code. Review before execution.
-
-**Implement** → execute within approved scope. Only the tools this mode allows. Nothing else.
-
-**Validate** → tests must pass. Not the AI's claim that tests pass — **actual test output**.
-
-**Review** → static analysis, security scanning. Read-only. Produce a report.
-
-**Repair** → fix only what failed. Scope locked. No "while I'm at it" changes.
-
-**Commit** → the only mode where git operations are allowed. One commit per task. Evidence attached.
-
-**Advisor** · **Handoff** · **Audit** · **Benchmark** · **Migration** · **Release** — six more modes for specialized work, each with its own constraints and evidence requirements.
-
-### The Companion System
-
-Install VENZARI CODE and it creates a `.venzari/` directory in your project. This is the project's brain — agents, skills, tasks, rules, memory. It accumulates knowledge over time. Come back months later, and CODE reads the companion and knows exactly where it left off.
-
-24 native skills. 216 vendor skills. Correction-based learning — when you correct the AI, the correction becomes a rule for future sessions. It literally gets better at working on your project.
-
----
-
-## VENZARI ENGINE — Structural Privacy
-
-> [venzari.co/engine](https://venzari.co/engine)
-
-Every cloud AI company has a privacy policy. It's a legal document. It can change. It can be overridden by a legal request. It can be rendered meaningless by an acquisition. And your data — the thing the policy promises to protect — is on their servers, because that's how their product works.
-
-VENZARI ENGINE's privacy is not a policy. It's architecture. Your data is on your server. There is no mechanism for VENZARI to access it. You can unplug the internet after installation and the system keeps working. The privacy guarantee is the product design, not a legal promise.
-
-**Seven features, all live:**
-
-**Conversational AI with permanent memory** — the system builds a cumulative understanding of your business across thousands of interactions. It doesn't forget. It doesn't start over. Every conversation makes the next one better.
-
-**Local voice** — text-to-speech and speech-to-text running on your hardware. Zero cloud latency. Your voice data never leaves your server.
-
-**Workflow automation** — reports, email drafting, CRM queries, calendar management. All local. No third-party API calls.
-
-**Web dashboard** — a full UI at your domain (ai.yourcompany.com). Chat, memory, voice controls, workflow management, system monitoring, user management.
-
-**REST API** — connect ENGINE to your existing systems. ERP, CRM, ticketing, HR. All locally.
-
-**Semantic memory search** — "What did we discuss about the Acme contract in March?" The system searches everything it has ever learned and returns the answer instantly.
-
-**Custom fine-tuning** — train a model on your conversations and domain knowledge. The trained model runs locally. Your training data never goes to a training provider.
-
-**33 phases complete. v1.0.0 launched September 5, 2026. Every feature live.**
-
----
-
-## The Installer
-
-This is the part that matters most.
-
-Most private AI infrastructure requires 3-6 months and a dedicated engineering team. VENZARI's installer does it in 20 minutes with someone who knows SSH.
-
-**11 pre-install checks** run automatically before anything happens — RAM, disk, ports, Docker, internet, sudo. If something is wrong, the installer tells you exactly what to fix and stops. No partial installs. No mystery failures.
-
-**7 wizard questions** — server identity, license, AI provider preference, model selection (hardware-adaptive), add-ons, confirmation. That's it.
-
-**17 worker-driven install steps** — your hardware profile goes to the installer worker, which returns a plan customized for your machine. Binary download. Model pulls. Docker-compose. Health checks. Gateway config. SSL. Ecosystem wiring. MCP registration. Each step has retry logic. The whole thing is resumable — `venzari-engine install --repair` skips what's done and retries from the failure point.
-
-**2,301 automated tests** back the installer. This is not a script someone wrote on a Friday afternoon. It's a tested, resumable, hardware-aware system that has been validated across thousands of scenarios.
-
-The installer IS the product. It's what makes private AI infrastructure accessible to companies that could never build it themselves.
-
----
-
-## VENZARI AI AGENT — It Remembers
-
-> [venzari.co/products/venzari-ai-agent](https://venzari.co/products/venzari-ai-agent)
-
-Close a chat with ChatGPT. Open it tomorrow. It doesn't know you. It doesn't remember what you were working on. You start from zero.
-
-VENZARI AI AGENT is not a chatbot. It's a persistent autonomous entity that lives across all your channels — Telegram, Slack, Discord, email, web chat, webhook — and remembers everything, forever.
-
-Start a conversation on Telegram in the morning. Continue it on Slack in the afternoon. Pick it up via email that evening. Same identity. Same memory. Same agent. It never forgets. It never asks you to re-explain.
-
-**2,212 real skills** — not prompts, tested capabilities. 11 flagship S-tier. 522 high-quality A-tier. 1,679 community B-tier. Invoked automatically based on what you ask.
-
-**The learning loop runs every night.** The agent identifies repeated patterns and creates new skills. It rates existing skills and improves underperformers. It updates its model of who you are. It compresses old interactions and retains the key facts. You wake up to an agent that is smarter than the one you talked to yesterday.
-
-**8-provider model router** — local Ollama, Groq, Gemini, OpenRouter, Cerebras, Anthropic, OpenAI, Bedrock. Circuit breaker bypasses failed providers. Budget monitor downgrades model tier at 80% budget. If VENZARI ENGINE is installed, all calls route through it automatically — zero config.
-
-**It also ships with a CLI** (`venzari-agent`, 15+ commands), a **native desktop app** (Tauri v2, 5 tabs, system tray), a **9-page web dashboard**, and **12 MCP tools** for any AI editor. 422 tests passing.
-
----
-
-## VENZARI Together — One Stack
-
-> [venzari.co/together](https://venzari.co/together)
-
-CODE and ENGINE on a single machine. One installer. Both products. Wired together. CODE routes all AI inference through ENGINE's local gateway. Zero cloud calls for development. Works offline after install.
+**13 modes. Each enforcing what should and should not happen at that stage of work.**
 
 ```
-Your Machine
-  ├── venzari-code CLI → routes to → LiteLLM :4001 → Ollama :11434
-  ├── ENGINE Dashboard :3000
-  └── ~/.venzari-together/
+Discover → Plan → Implement → Validate → Review → Repair → Commit
 ```
 
-22-step hardware-aware plan. 8 GB RAM minimum, 16 GB recommended. `venzari-together doctor` for health checks. `venzari-together status` for combined view.
+*Discover* scans the codebase. Writes nothing. *Plan* writes a plan document — no code executed. *Implement* works within the approved scope only. *Validate* requires actual test output — not the AI's word that tests pass. *Review* is read-only. *Repair* is scoped to the specific failure. *Commit* is the only mode where git operations are allowed, and every commit carries the evidence of what was done to get there.
+
+**Six more modes** for specialized work: Advisor, Handoff, Audit, Benchmark, Migration, Release.
+
+Your project gets a `.venzari/` directory — 24 native skills, 216 vendor templates, agents, tasks, rules, and persistent memory. Return months later. CODE reads the companion and knows exactly where you left off. When you correct the AI, that correction becomes a rule. It gets better at your specific project over time.
+
+**1,508 tests passing. 0 failing. 74 test files. v1.0.0 live.**
 
 ---
 
-## Before & After
+## VENZARI ENGINE
 
-| | Before VENZARI | After VENZARI |
-|---|---|---|
-| **Data** | On someone else's server | On your server |
-| **Cost** | Per token, no ceiling | Fixed monthly |
-| **Memory** | Session-only | Permanent |
-| **Development** | Ungoverned AI | 13-mode governance with evidence |
-| **Multi-channel** | One app | 6 channels, one agent |
-| **Setup** | Months or an API key | 20 minutes |
-| **Ownership** | You own nothing | You own the binary, the data, the future |
+> *"We don't just say your data is private. Your data physically cannot leave your hardware."*
+>
+> **[venzari.co/engine](https://venzari.co/engine)** · `curl -fsSL https://install.venzari.xyz/engine | sh`
 
 ---
 
-## The Comparison
+There are two kinds of privacy: **policy privacy** and **structural privacy.**
 
-| What you're using | What VENZARI is |
-|---|---|
-| ChatGPT | A chat interface. AI AGENT is an autonomous agent that remembers, learns, and acts across 6 channels. |
-| Copilot | A suggestion tool. CODE is the OS that governs when and how AI touches your code. |
-| OpenAI API | A rental. ENGINE is ownership — the system runs on your hardware, no per-token billing. |
-| Enterprise AI ($50K+/year) | A 6-month implementation. VENZARI is 20 minutes for $4,188/year. |
+Policy privacy is a legal document. It says your data is protected. It can change. It can be overridden by a court order. It can be rendered meaningless when the company is acquired. And the entire time, your data sits on someone else's server — because that is how their product works.
 
-These are not better versions of existing products. They are different categories for different relationships with AI.
+Structural privacy means your data physically cannot leave your hardware. Not because someone promised it won't. Because there is no mechanism for it to. You can close your internet connection the day after installation, and the system keeps running perfectly.
+
+VENZARI ENGINE is structural privacy. A complete AI system — conversational AI with permanent memory, local voice synthesis and recognition, business workflow automation, a full web dashboard, REST API, and custom fine-tuning — all running on a VPS you own. The company you work for is not sharing its AI conversations with anyone. Not now. Not ever.
+
+**The installer is the product.** Not a script. A tested, resumable, hardware-aware system that takes 20 minutes and requires only SSH. 11 parallel pre-install checks. A 7-question wizard. A 17-step hardware-customized plan from `installer.venzari.xyz`. 2,301 automated tests. Retry logic on every step.
+
+Companies with 3-6 months and an AI engineering team can build this themselves. VENZARI ENGINE is for the 50-person company that doesn't have that — and shouldn't have to.
+
+**33 phases complete. v1.0.0 launched September 5, 2026. All seven features live.**
 
 ---
 
-## Start
+## VENZARI AI AGENT
 
-```bash
-# CODE
-curl -fsSL https://install.venzari.xyz | bash && venzari-code install
+> *"Not a better chatbot. An always-on entity that knows you, works everywhere, and never forgets."*
+>
+> **[venzari.co/products/venzari-ai-agent](https://venzari.co/products/venzari-ai-agent)** · `curl -fsSL https://install.venzari.xyz/agent | sh`
 
-# ENGINE
-curl -fsSL https://install.venzari.xyz/engine | sh
+---
 
-# AI AGENT
-curl -fsSL https://install.venzari.xyz/agent | sh
+The fundamental problem with AI assistants is not intelligence. It's memory.
 
-# Together (CODE + ENGINE)
-curl -fsSL https://install.venzari.xyz/together | sh
+Every time you open a new conversation with a cloud AI, you are talking to something that has never met you. It is highly capable and knows nothing about you. You spend twenty minutes re-establishing context — your project, your preferences, your constraints, your decisions — and then you do the work. Tomorrow you do it again.
+
+VENZARI AI AGENT doesn't forget. Not between sessions. Not between channels.
+
+Start a conversation on Telegram in the morning. Your AI remembers it when you ask a related question in Slack that afternoon. It knows what you were working on yesterday. It knows the decisions you made last month. It has indexed every conversation across all six channels — Telegram, Slack, Discord, email, web chat, webhook — into three parallel indexes that retrieve what you need in under 50 milliseconds.
+
+And it learns. Every night at 3am, the agent reviews what you asked it to do repeatedly, creates new skills for those patterns, improves the ones that didn't work well, and updates its model of who you are. You never have to ask it to remember something specific. It just does.
+
+**2,212 skills** across three quality tiers. **8 providers** with automatic failover and budget monitoring. A CLI binary with 15+ commands. A native desktop app. A web dashboard with 9 pages. 12 MCP tools for any AI editor. And if VENZARI ENGINE is installed, everything routes through it locally — zero config.
+
+**The first agent that earns loyalty through memory. $29/month.**
+
+---
+
+## VENZARI Together
+
+> **[venzari.co/together](https://venzari.co/together)** · `curl -fsSL https://install.venzari.xyz/together | sh`
+
+---
+
+CODE and ENGINE on the same machine. One installer. Both products wired together.
+
+Every AI inference call from VENZARI CODE routes through ENGINE's local LiteLLM gateway. No cloud calls for development. Offline after install. Your code, your AI, your hardware.
+
+22-step hardware-aware install plan. `venzari-together doctor` confirms everything is healthy.
+
 ```
+venzari-code → LiteLLM :4001 → Ollama :11434 → your local models
+```
+
+---
+
+## The Numbers
+
+| | VENZARI CODE | VENZARI ENGINE | VENZARI AI AGENT |
+|---|---|---|---|
+| Tests passing | 1,508 | 2,301 installer tests | 422 |
+| Key metrics | 13 modes | 33 phases | 2,212 skills |
+| Channels/languages | 6 languages | 7 features | 6 live channels |
+| Provider coverage | — | 13 AI providers | 8 model providers |
+| Desktop app | ✅ Tauri v2 | ✅ Dashboard at your domain | ✅ Tauri v2 |
+| MCP tools | 6 | 16 | 12 |
+| Status | v1.0.0 live | v1.0.0 live | v1.1.0 live |
 
 ---
 
 ## Pricing
+
+No per-token billing. No cloud dependency. No data leaving your hardware.
 
 | Product | Tier | Price |
 |---------|------|-------|
 | ENGINE | Foundation | $349/mo |
 | ENGINE | Growth | $899/mo |
 | ENGINE | Enterprise | $2,499/mo |
+| ENGINE | Founder-Guided Setup | $2,499 one-time |
 | AI AGENT | Starter | $29/mo |
 | AI AGENT | Professional | $99/mo |
 | AI AGENT | Enterprise | $499/mo |
 | Full Stack | Enterprise | $5,988/year |
 
-No per-token billing. No cloud dependency. No data leaving your hardware.
+---
+
+## Quick Start
+
+```sh
+curl -fsSL https://install.venzari.xyz/engine | sh     # private AI infrastructure
+curl -fsSL https://install.venzari.xyz | bash           # engineering OS
+curl -fsSL https://install.venzari.xyz/agent | sh       # persistent agent
+curl -fsSL https://install.venzari.xyz/together | sh    # CODE + ENGINE
+```
+
+[venzari.co](https://venzari.co) · [pricing](https://venzari.co/pricing) · [docs](https://docs.venzari.co) · [discord](https://discord.gg/venzari) · [enterprise](https://venzari.co/enterprise) · [contact](https://venzari.co/contact)
+
+All products: [code](https://venzari.co/code) · [engine](https://venzari.co/engine) · [agent](https://venzari.co/products/venzari-ai-agent) · [together](https://venzari.co/together) · [solutions](https://venzari.co/solutions) · [jobs](https://venzari.co/jobs) · [install](https://install.venzari.xyz)
 
 ---
 
-## Links
+<div align="center" style="padding-top:1.5rem;border-top:1px solid #5EE7FF;color:rgba(253,251,249,.6);font-size:.85rem;line-height:1.7;">
 
-| Resource | URL |
-|----------|-----|
-| Website | [venzari.co](https://venzari.co) |
-| Code | [venzari.co/code](https://venzari.co/code) |
-| Engine | [venzari.co/engine](https://venzari.co/engine) |
-| AI Agent | [venzari.co/products/venzari-ai-agent](https://venzari.co/products/venzari-ai-agent) |
-| Together | [venzari.co/together](https://venzari.co/together) |
-| Enterprise | [venzari.co/enterprise](https://venzari.co/enterprise) |
-| Pricing | [venzari.co/pricing](https://venzari.co/pricing) |
-| Docs | [docs.venzari.co](https://docs.venzari.co) |
-| Install | [install.venzari.xyz](https://install.venzari.xyz) |
-| Solutions | [venzari.co/solutions](https://venzari.co/solutions) |
-| Jobs | [venzari.co/jobs](https://venzari.co/jobs) |
-| Contact | [venzari.co/contact](https://venzari.co/contact) |
-| Discord | [discord.gg/venzari](https://discord.gg/venzari) |
+© 2026 VENZARI · <strong>Content is King.</strong> And VENZARI writes the category.<br/>
+<em>Your AI. Your Hardware. Your Future.</em>
 
----
-
-<div style="margin-top:3rem;padding-top:2rem;border-top:1px solid #5EE7FF;color:rgba(253,251,249,.6);font-size:.85rem;line-height:1.6;">
-  © 2026 VENZARI<br/>
-  <strong>Content is King.</strong> And VENZARI writes the category.<br/>
-  <em>Your AI. Your Hardware. Your Future.</em>
 </div>
 
 <script>
   (function() {
-    var html = document.documentElement;
-    html.style.fontFamily = "'Poppins','Unbounded',system-ui,sans-serif";
     var heads = document.getElementsByTagName('head');
     if (heads.length > 0) {
-      var link = document.createElement('link');
-      link.rel = 'preconnect'; link.href = 'https://fonts.googleapis.com';
-      heads[0].appendChild(link);
-      var unbounded = document.createElement('link');
-      unbounded.rel = 'stylesheet';
-      unbounded.href = 'https://fonts.googleapis.com/css2?family=Unbounded&display=swap';
-      heads[0].appendChild(unbounded);
+      var pc = document.createElement('link'); pc.rel = 'preconnect'; pc.href = 'https://fonts.googleapis.com'; heads[0].appendChild(pc);
+      var f = document.createElement('link'); f.rel = 'stylesheet';
+      f.href = 'https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700;800&family=Poppins:wght@400;500;600&display=swap';
+      heads[0].appendChild(f);
     }
   })();
 </script>
