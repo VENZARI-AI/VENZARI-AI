@@ -354,10 +354,11 @@ curl -fsSL https://install.venzari.xyz/together | sh        # full stack
 
 ---
 
-<div style="margin-top:3rem;padding-top:2rem;border-top:1px solid rgba(255,255,255,.08);color:rgba(253,251,249,.6);font-size:.85rem;line-height:1.6;">
-  © 2026 VENZARI<br/>
-  <em>Your AI. Your Hardware. Your Future.</em>
-</div>
+---
+
+<p align="center">
+  <sub>© 2026 VENZARI &nbsp;·&nbsp; <em>Your AI. Your Hardware. Your Future.</em></sub>
+</p>
 
 <script>
   (function() {

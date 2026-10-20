@@ -48,7 +48,7 @@ VENZARI is built for the companies that have already noticed this, and the ones 
 
 <br/>
 
-## <span style="color:#A259FF">⚙️ VENZARI CODE</span>
+## ⚙️ VENZARI CODE
 
 > **The governance substrate on which AI-assisted development runs.**
 
@@ -72,7 +72,7 @@ When you correct the AI, that correction becomes a rule. Every correction makes 
 
 ---
 
-## <span style="color:#C1FF00">🛡️ VENZARI ENGINE</span>
+## 🛡️ VENZARI ENGINE
 
 > **The only AI system where data privacy is architecture, not policy.**
 
@@ -98,7 +98,7 @@ The company that needs private AI is not the five-person startup and not the For
 
 ---
 
-## <span style="color:#3251FC">🤖 VENZARI AI AGENT</span>
+## 🤖 VENZARI AI AGENT
 
 > **The first agent that earns loyalty through memory.**
 
@@ -122,7 +122,7 @@ A CLI binary with 15+ commands. A native Tauri v2 desktop app with five tabs and
 
 ---
 
-## <span style="color:#3251FC">🔗 VENZARI Together</span>
+## 🔗 VENZARI Together
 
 > **One command. Both products. Fully wired. Zero cloud inference.**
 
@@ -168,10 +168,11 @@ curl -fsSL https://install.venzari.xyz/together | sh        # CODE + ENGINE toge
 
 ---
 
-<div style="margin-top:3rem;padding-top:2rem;border-top:1px solid rgba(255,255,255,.08);color:rgba(253,251,249,.6);font-size:.85rem;line-height:1.6;">
-  © 2026 VENZARI<br/>
-  <em>Your AI. Your Hardware. Your Future.</em>
-</div>
+---
+
+<p align="center">
+  <sub>© 2026 VENZARI &nbsp;·&nbsp; <em>Your AI. Your Hardware. Your Future.</em></sub>
+</p>
 
 <script>
   (function() {

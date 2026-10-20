@@ -36,7 +36,7 @@
 
 <div align="center">
 
-| <span style="color:#A259FF;font-family:monospace;font-size:.85rem;background:rgba(162,89,255,.12);border:1px solid rgba(162,89,255,.3);border-radius:4px;padding:.2rem .6rem">⚙️ Engineering OS</span> | <span style="color:#C1FF00;font-family:monospace;font-size:.85rem;background:rgba(193,255,0,.1);border:1px solid rgba(193,255,0,.3);border-radius:4px;padding:.2rem .6rem">🛡️ Private AI</span> | <span style="color:#3251FC;font-family:monospace;font-size:.85rem;background:rgba(50,81,252,.12);border:1px solid rgba(50,81,252,.3);border-radius:4px;padding:.2rem .6rem">🤖 Persistent Agent</span> |
+| ⚙️ Engineering OS | 🛡️ Private AI | 🤖 Persistent Agent |
 |:---:|:---:|:---:|
 | **VENZARI CODE** | **VENZARI ENGINE** | **VENZARI AI AGENT** |
 | The OS that governs how AI touches your code | Complete private AI stack on your hardware | Always-on agent across 6 channels, learns nightly |
@@ -57,7 +57,7 @@ VENZARI doesn't ask you to make those bets.
 
 ---
 
-## <span style="color:#A259FF">⚙️</span> VENZARI CODE — Engineering OS
+## ⚙️ VENZARI CODE — Engineering OS
 
 > [venzari.co/code](https://venzari.co/code) · `curl -fsSL https://install.venzari.xyz | bash && venzari-code install`
 
@@ -99,19 +99,13 @@ Return months later. CODE reads the companion and knows exactly where you left o
 
 ### Five Governance Components
 
-<div style="display:grid;grid-template-columns:repeat(2,1fr);gap:.8rem;background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.01));border:1px solid rgba(255,255,255,.08);border-radius:8px;padding:1.2rem;margin:.5rem 0">
-
-**SSOT Loader** — reads project rules before every action; AI operates within established patterns, not just prompt instructions
-
-**Tool Guard** — per-mode allowlists enforced at the system call level. Not a prompt. A structural constraint.
-
-**Loop Detector** — 3 identical attempts without progress → stop, escalate to human review
-
-**Evidence Collector** — every tool call logged: input, output, timestamp. Immutable. Follows every commit.
-
-**Context Assembler** — constructs <4,000 char synthetic context window from the most relevant project knowledge
-
-</div>
+| Component | What it enforces |
+|-----------|-----------------|
+| **SSOT Loader** | Reads project rules before every action — AI operates within established patterns |
+| **Tool Guard** | Per-mode allowlists at the system call level — not a prompt, a structural constraint |
+| **Loop Detector** | 3 identical attempts without progress → stop, escalate to human review |
+| **Evidence Collector** | Every tool call logged: input · output · timestamp. Immutable. Follows every commit. |
+| **Context Assembler** | Constructs <4,000 char synthetic window of the most relevant project knowledge |
 
 ### Verified Numbers
 
@@ -126,7 +120,7 @@ Goal mode: venzari-code goal "<objective>" — autonomous, budget-capped
 
 ---
 
-## <span style="color:#C1FF00">🛡️</span> VENZARI ENGINE — Private AI Infrastructure
+## 🛡️ VENZARI ENGINE — Private AI Infrastructure
 
 > [venzari.co/engine](https://venzari.co/engine) · `curl -fsSL https://install.venzari.xyz/engine | sh`
 
@@ -184,7 +178,7 @@ E2E smoke test: 15/15 checks · public GitHub Release v1.0.0
 
 ---
 
-## <span style="color:#3251FC">🤖</span> VENZARI AI AGENT — Persistent Autonomous Agent
+## 🤖 VENZARI AI AGENT — Persistent Autonomous Agent
 
 > [venzari.co/products/venzari-ai-agent](https://venzari.co/products/venzari-ai-agent) · `curl -fsSL https://install.venzari.xyz/agent | sh`
 
@@ -250,7 +244,7 @@ Circuit breaker: 3 failures → bypass + auto-recovery · Budget monitor: downgr
 
 ---
 
-## <span style="color:#3251FC">🔗</span> VENZARI Together
+## 🔗 VENZARI Together
 
 > [venzari.co/together](https://venzari.co/together) · `curl -fsSL https://install.venzari.xyz/together | sh`
 
@@ -317,10 +311,11 @@ curl -fsSL https://install.venzari.xyz/together | sh
 
 ---
 
-<div style="margin-top:3rem;padding-top:2rem;border-top:1px solid rgba(255,255,255,.08);color:rgba(253,251,249,.6);font-size:.85rem;line-height:1.6;">
-  © 2026 VENZARI<br/>
-  <em>Your AI. Your Hardware. Your Future.</em>
-</div>
+---
+
+<p align="center">
+  <sub>© 2026 VENZARI &nbsp;·&nbsp; <em>Your AI. Your Hardware. Your Future.</em></sub>
+</p>
 
 <script>
   (function() {

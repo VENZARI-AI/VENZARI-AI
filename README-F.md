@@ -54,7 +54,7 @@ VENZARI does not compete in existing categories — it creates new ones. The goa
 
 ## Category 1 — Private AI Infrastructure
 
-### <span style="color:#C1FF00">VENZARI ENGINE</span>
+### VENZARI ENGINE
 
 > [venzari.co/engine](https://venzari.co/engine) · `curl -fsSL https://install.venzari.xyz/engine | sh`
 >
@@ -74,39 +74,17 @@ VENZARI does not compete in existing categories — it creates new ones. The goa
 
 **7 features, all live, all on your hardware:**
 
-<table>
-<tr>
-<td width="50%" style="background:rgba(193,255,0,.04);border:1px solid rgba(193,255,0,.15);border-radius:8px;padding:1rem">
-
-**🧠 Conversational AI + permanent memory**
-Every conversation, every decision, indefinitely private. Builds cumulative understanding of your business.
-
-**🎙️ Local voice**
-Offline TTS + STT. Zero cloud latency. Voice data never leaves.
-
-**⚙️ Workflow automation**
-Reports, email drafting, CRM, calendar — all local API calls.
-
-**🌐 Web dashboard**
-Full UI at `ai.yourcompany.com` — chat, memory, voice, workflows, monitoring.
-
-</td>
-<td width="50%" style="background:rgba(193,255,0,.04);border:1px solid rgba(193,255,0,.15);border-radius:8px;padding:1rem">
-
-**🔌 REST API**
-Connect ERP, CRM, ticketing, HR locally.
-
-**🔎 Semantic search**
-*"What did we discuss about Acme in March?"* → instant answer.
-
-**🎓 Custom fine-tuning** *(Growth+)*
-Train on your data. Model runs locally. Training data never goes to a provider.
+| Feature | What it means |
+|---------|---------------|
+| 🧠 **Conversational AI + permanent memory** | Every conversation, every decision, indefinitely private |
+| 🎙️ **Local voice (TTS + STT)** | Offline, zero cloud audio — voice data never leaves |
+| ⚙️ **Workflow automation** | Reports, email, CRM, calendar — all local API calls |
+| 🌐 **Web dashboard** | Full UI at `ai.yourcompany.com` — chat, memory, voice, workflows |
+| 🔌 **REST API** | Connect ERP, CRM, ticketing, HR locally |
+| 🔎 **Semantic search** | *"What did we discuss about Acme in March?"* → instant answer |
+| 🎓 **Custom fine-tuning** *(Growth+)* | Train on your data · model runs locally |
 
 **Status:** v1.0.0 · 33 phases complete · Launched 2026-09-05
-
-</td>
-</tr>
-</table>
 
 **The 3-stage installer — 20 minutes from zero to full private AI stack:**
 
@@ -129,7 +107,7 @@ Stage 3:  17-step hardware-customized plan from installer.venzari.xyz
 
 ## Category 2 — Engineering OS
 
-### <span style="color:#A259FF">VENZARI CODE</span>
+### VENZARI CODE
 
 > [venzari.co/code](https://venzari.co/code) · `curl -fsSL https://install.venzari.xyz | bash && venzari-code install`
 >
@@ -172,7 +150,7 @@ Corrections become rules — gets better at your project over time
 
 ## Category 3 — Persistent Autonomous Agent
 
-### <span style="color:#3251FC">VENZARI AI AGENT</span>
+### VENZARI AI AGENT
 
 > [venzari.co/products/venzari-ai-agent](https://venzari.co/products/venzari-ai-agent) · `curl -fsSL https://install.venzari.xyz/agent | sh`
 >
@@ -217,9 +195,9 @@ Repeated patterns → new skills · Performance signals → improved skills · U
 
 <table>
 <tr>
-<td width="50%" style="vertical-align:top">
+<td>
 
-### <span style="color:#3251FC">Together</span>
+### Together
 
 [venzari.co/together](https://venzari.co/together)
 
@@ -240,9 +218,9 @@ venzari-code → LiteLLM :4001
 22-step hardware-aware plan. 8 GB min, 16 GB recommended.
 
 </td>
-<td width="50%" style="vertical-align:top">
+<td>
 
-### <span style="color:#FF38D4">Enterprise</span>
+### Enterprise
 
 [venzari.co/enterprise](https://venzari.co/enterprise)
 
@@ -286,10 +264,11 @@ curl -fsSL https://install.venzari.xyz/together | sh         # CODE + ENGINE tog
 
 ---
 
-<div style="margin-top:3rem;padding-top:2rem;border-top:1px solid rgba(255,255,255,.08);color:rgba(253,251,249,.6);font-size:.85rem;line-height:1.6;">
-  © 2026 VENZARI<br/>
-  <em>Your AI. Your Hardware. Your Future.</em>
-</div>
+---
+
+<p align="center">
+  <sub>© 2026 VENZARI &nbsp;·&nbsp; <em>Your AI. Your Hardware. Your Future.</em></sub>
+</p>
 
 <script>
   (function() {
