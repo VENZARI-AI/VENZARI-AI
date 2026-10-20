@@ -544,11 +544,12 @@ venzari-code "refactor this"  # CODE routes through local ENGINE
 
 <br/>
 
-<div style="margin-top:3rem;padding-top:2rem;border-top:1px solid #5EE7FF;color:rgba(253,251,249,.6);font-size:.85rem;line-height:1.6;">
-  © 2026 VENZARI<br/>
-  <strong>Content is King.</strong> And VENZARI writes the category.<br/>
-  <em>Your AI. Your Hardware. Your Future.</em>
-</div>
+---
+
+<p align="center">
+<strong>VENZARI</strong> &nbsp;·&nbsp; <a href="https://venzari.co">venzari.co</a> &nbsp;·&nbsp; <a href="https://discord.gg/venzari">Discord</a> &nbsp;·&nbsp; <a href="https://venzari.co/jobs">Jobs</a><br/>
+<em>Your AI. Your Hardware. Your Future. &nbsp;·&nbsp; © 2026 VENZARI</em>
+</p>
 
 <script>
   // Font preload for proper rendering
@@ -575,16 +576,16 @@ venzari-code "refactor this"  # CODE routes through local ENGINE
 
 ```bash
 # VENZARI CODE — Engineering OS (installs itself)
-curl -FsSL https://install.venzari.xyz | bash
+curl -FsSL install.venzari.xyz (customers only) | bash
 
 # VENZARI ENGINE — Private AI (local inference, persistent memory)
-curl -FsSL https://install.venzari.xyz/engine | bash
+curl -FsSL install.venzari.xyz (customers only) | bash
 
 # VENZARI AI AGENT — Persistent autonomous agent (6 channels, 2212 skills)
-curl -FsSL https://install.venzari.xyz/agent | bash
+curl -FsSL install.venzari.xyz (customers only) | bash
 
 # VENZARI TOGETHER — All three, integrated, one license
-curl -FsSL https://install.venzari.xyz/together | bash
+curl -FsSL install.venzari.xyz (customers only) | bash
 ```
 
 > 1,508 CODE tests · 2,301 ENGINE automated steps · 422 AI AGENT pass · 13 governance modes · 8 model providers · 6 live channels · 2,212 skills · 2,301 installer tests

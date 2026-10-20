@@ -184,7 +184,7 @@ Start a conversation on Telegram on the train. Finish it on Slack at your desk. 
 **CODE + ENGINE + AI AGENT, working as one system. One command. One license. One owner: you.**
 
 ```bash
-curl -FsSL https://install.venzari.xyz/together | bash
+curl -FsSL install.venzari.xyz (customers only) | bash
 ```
 
 The installer detects your RAM, GPU, OS, disk, and architecture, then builds a 22-step hardware-aware plan: ENGINE (docker → ollama → models → LiteLLM gateway on :4001), CODE (CLI binary → companion repo → router wired to :4001), and a shared `~/.venzari-together/` config with a HANDOFF.md written for you.
@@ -281,16 +281,16 @@ venzari-engine install --repair
 
 ```bash
 # VENZARI CODE — Engineering OS
-curl -FsSL https://install.venzari.xyz | bash
+curl -FsSL install.venzari.xyz (customers only) | bash
 
 # VENZARI ENGINE — Private AI Infrastructure
-curl -FsSL https://install.venzari.xyz/engine | bash
+curl -FsSL install.venzari.xyz (customers only) | bash
 
 # VENZARI AI AGENT — Persistent Autonomous Agent
-curl -FsSL https://install.venzari.xyz/agent | bash
+curl -FsSL install.venzari.xyz (customers only) | bash
 
 # VENZARI TOGETHER — The Complete Stack
-curl -FsSL https://install.venzari.xyz/together | bash
+curl -FsSL install.venzari.xyz (customers only) | bash
 ```
 
 <div align="center">
@@ -450,7 +450,7 @@ The aesthetic follows the VENZARI brand system — **Unbounded** for headings, *
 ## One Command. That's The Whole Pitch.
 
 ```bash
-curl -FsSL https://install.venzari.xyz/together | bash
+curl -FsSL install.venzari.xyz (customers only) | bash
 ```
 
 Every feature described in this document — 13 governance modes, 2,212 skills, 8 model providers, 6 live channels, structural privacy, permanent memory, 2,301 automated steps — installs from that single line. The installer does the rest.

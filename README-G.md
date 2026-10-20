@@ -21,7 +21,6 @@
   </p>
   <p>
     <a href="https://venzari.co"><img src="https://img.shields.io/badge/-venzari.co-3251fc?style=flat-square" alt="Website"/></a>
-    <a href="https://install.venzari.xyz"><img src="https://img.shields.io/badge/-install.venzari.xyz-3251fc?style=flat-square" alt="Install"/></a>
     <a href="https://docs.venzari.co"><img src="https://img.shields.io/badge/-docs.venzari.co-5EE7FF?style=flat-square" alt="Docs"/></a>
     <a href="https://venzari.co/pricing"><img src="https://img.shields.io/badge/-pricing-3251fc?style=flat-square" alt="Pricing"/></a>
     <a href="https://discord.gg/venzari"><img src="https://img.shields.io/badge/-Discord-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord"/></a>
@@ -36,14 +35,17 @@ The only complete private AI ecosystem. Four products. Three new categories. Zer
 
 | Product | Category | Install |
 |---------|----------|---------|
-| [VENZARI ENGINE](https://venzari.co/engine) | Private AI Infrastructure | `curl -fsSL https://install.venzari.xyz/engine \| sh` |
-| [VENZARI CODE](https://venzari.co/code) | Engineering OS | `curl -fsSL https://install.venzari.xyz \| bash` |
-| [VENZARI AI AGENT](https://venzari.co/products/venzari-ai-agent) | Persistent Autonomous Agent | `curl -fsSL https://install.venzari.xyz/agent \| sh` |
-| [VENZARI Together](https://venzari.co/together) | Complete Stack | `curl -fsSL https://install.venzari.xyz/together \| sh` |
+| [VENZARI ENGINE](https://venzari.co/engine) | Private AI Infrastructure | `see docs.venzari.co` |
+| [VENZARI CODE](https://venzari.co/code) | Engineering OS | `see docs.venzari.co` |
+| [VENZARI AI AGENT](https://venzari.co/products/venzari-ai-agent) | Persistent Autonomous Agent | `see docs.venzari.co` |
+| [VENZARI Together](https://venzari.co/together) | Complete Stack | `see docs.venzari.co` |
 
 ---
 
 ## 02 — Architecture
+
+> [!NOTE]
+> All three products auto-wire together. ENGINE provides the local LiteLLM gateway. CODE routes inference through it. AI AGENT connects to both. One ecosystem — zero manual configuration.
 
 ```mermaid
 graph TB
@@ -77,8 +79,7 @@ version: 1.0.0
 tests_passing: 1508
 test_files: 74
 modes: 13
-install: "curl -fsSL https://install.venzari.xyz | bash && venzari-code install"
-```
+install: "```
 
 Not an AI coding assistant. The governance layer above AI models — the operating system that decides what AI is allowed to do, in which phase, with what evidence required to complete.
 
@@ -150,8 +151,7 @@ version: 1.0.0
 phases_complete: 33
 installer_tests: 2301
 launched: 2026-09-05
-install: "curl -fsSL https://install.venzari.xyz/engine | sh"
-```
+install: "```
 
 ### Structural Privacy
 
@@ -229,8 +229,7 @@ tests_passing: 422
 skills: 2212  # 11 S-tier + 522 A-tier + 1679 B-tier
 channels: 6
 providers: 8
-install: "curl -fsSL https://install.venzari.xyz/agent | sh"
-```
+install: "```
 
 ### 6 Live Channels
 
@@ -291,9 +290,6 @@ engine:          "auto-routes through ENGINE LiteLLM :4001 — zero config"
 
 > **Complete Stack** · [venzari.co/together](https://venzari.co/together)
 
-```bash
-curl -fsSL https://install.venzari.xyz/together | sh
-```
 
 CODE + ENGINE, one machine, fully wired. CODE routes all inference through ENGINE's LiteLLM at :4001. Zero cloud calls for development. Offline after install.
 
@@ -343,16 +339,8 @@ offline:     true
 
 ## 09 — Start
 
-```bash
-curl -fsSL https://install.venzari.xyz/engine | sh          # private AI
-curl -fsSL https://install.venzari.xyz | bash               # engineering OS
-curl -fsSL https://install.venzari.xyz/agent | sh           # agent ($29/mo)
-curl -fsSL https://install.venzari.xyz/together | sh        # full stack
-```
 
 [venzari.co](https://venzari.co) · [Pricing](https://venzari.co/pricing) · [Docs](https://docs.venzari.co) · [Enterprise](https://venzari.co/enterprise) · [Solutions](https://venzari.co/solutions) · [Jobs](https://venzari.co/jobs) · [Contact](https://venzari.co/contact) · [Discord](https://discord.gg/venzari)
-
----
 
 ---
 

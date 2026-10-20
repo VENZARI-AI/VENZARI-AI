@@ -25,7 +25,6 @@
   </p>
   <p>
     <a href="https://venzari.co"><img src="https://img.shields.io/badge/venzari.co-3251fc?style=for-the-badge" alt="Website"/></a>
-    <a href="https://install.venzari.xyz"><img src="https://img.shields.io/badge/install-3251fc?style=for-the-badge" alt="Install"/></a>
     <a href="https://docs.venzari.co"><img src="https://img.shields.io/badge/docs-5EE7FF?style=for-the-badge" alt="Docs"/></a>
     <a href="https://venzari.co/pricing"><img src="https://img.shields.io/badge/pricing-3251fc?style=for-the-badge" alt="Pricing"/></a>
     <a href="https://discord.gg/venzari"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/></a>
@@ -43,6 +42,20 @@
 
 </div>
 
+<details>
+<summary><kbd>📋 Table of Contents</kbd></summary>
+
+- [The Problem](#the-problem)
+- [VENZARI CODE — Engineering OS](#️-venzari-code--engineering-os)
+- [VENZARI ENGINE — Private AI Infrastructure](#️-venzari-engine--private-ai-infrastructure)
+- [VENZARI AI AGENT — Persistent Autonomous Agent](#-venzari-ai-agent--persistent-autonomous-agent)
+- [VENZARI Together](#-venzari-together)
+- [Their Way vs VENZARI](#their-way-vs-venzari)
+- [Get Started](#get-started)
+
+</details>
+
+
 ---
 
 ## The Problem
@@ -59,11 +72,15 @@ VENZARI doesn't ask you to make those bets.
 
 ## ⚙️ VENZARI CODE — Engineering OS
 
-> [venzari.co/code](https://venzari.co/code) · `curl -fsSL https://install.venzari.xyz | bash && venzari-code install`
+> [venzari.co/code](https://venzari.co/code) · `see docs.venzari.co`
 
 Not an AI coding assistant. The governance layer that decides what AI is allowed to do, in which phase, with what evidence required to complete.
 
 The distinction matters: AI coding assistants are suggestion tools. **VENZARI CODE is the operating system that tools run under.** It tells AI what it is permitted to do, enforces those permissions at the system call level, collects evidence for every action, and builds permanent memory of your codebase across sessions.
+
+
+> [!NOTE]
+> VENZARI CODE and GitHub Copilot are not competitors — they coexist. Copilot is a suggestion tool. CODE is the OS that governs when and how suggestions interact with your codebase.
 
 ### 13 Operating Modes — Governance Enforced Per Phase
 
@@ -122,7 +139,7 @@ Goal mode: venzari-code goal "<objective>" — autonomous, budget-capped
 
 ## 🛡️ VENZARI ENGINE — Private AI Infrastructure
 
-> [venzari.co/engine](https://venzari.co/engine) · `curl -fsSL https://install.venzari.xyz/engine | sh`
+> [venzari.co/engine](https://venzari.co/engine) · `see docs.venzari.co`
 
 A complete AI system on a VPS you own. 20 minutes from nothing to persistent memory, local voice, workflow automation, web dashboard, REST API, and semantic search — all running on your hardware.
 
@@ -131,6 +148,10 @@ A complete AI system on a VPS you own. 20 minutes from nothing to persistent mem
 > *"We don't just say your data is private. Your data physically cannot leave your hardware."*
 
 Cloud AI privacy is a legal document. ENGINE's privacy is the product design. There is no mechanism for VENZARI to access your data. You can close the internet connection after installation and the system keeps running.
+
+
+> [!IMPORTANT]
+> **Structural privacy vs policy privacy:** Cloud AI privacy is a legal document. ENGINE's privacy is the architecture — there is no mechanism for VENZARI to access your data. You can close the internet after installation and the system keeps running.
 
 ### 7 Features — All Live, All On Your Hardware
 
@@ -180,7 +201,7 @@ E2E smoke test: 15/15 checks · public GitHub Release v1.0.0
 
 ## 🤖 VENZARI AI AGENT — Persistent Autonomous Agent
 
-> [venzari.co/products/venzari-ai-agent](https://venzari.co/products/venzari-ai-agent) · `curl -fsSL https://install.venzari.xyz/agent | sh`
+> [venzari.co/products/venzari-ai-agent](https://venzari.co/products/venzari-ai-agent) · `see docs.venzari.co`
 
 Not a chatbot. An always-on entity that operates across every channel you use, remembers everything permanently, and becomes measurably more capable every night.
 
@@ -246,7 +267,7 @@ Circuit breaker: 3 failures → bypass + auto-recovery · Budget monitor: downgr
 
 ## 🔗 VENZARI Together
 
-> [venzari.co/together](https://venzari.co/together) · `curl -fsSL https://install.venzari.xyz/together | sh`
+> [venzari.co/together](https://venzari.co/together) · `see docs.venzari.co`
 
 CODE + ENGINE on one machine. Fully wired. CODE routes all AI inference through ENGINE's local LiteLLM at :4001. **Zero cloud calls for development. Offline after install.**
 
@@ -291,25 +312,22 @@ Install once. Run offline forever. Starting at $29/month.
 
 ---
 
-## Start
+## Get Started
+
+> [docs.venzari.co](https://docs.venzari.co) · [venzari.co/pricing](https://venzari.co/pricing) · [venzari.co/contact](https://venzari.co/contact)
+
 
 ```bash
 # Engineering OS
-curl -fsSL https://install.venzari.xyz | bash && venzari-code install
 
 # Private AI Infrastructure  
-curl -fsSL https://install.venzari.xyz/engine | sh
 
 # Persistent Agent — starting at $29/month
-curl -fsSL https://install.venzari.xyz/agent | sh
 
 # CODE + ENGINE, one machine
-curl -fsSL https://install.venzari.xyz/together | sh
 ```
 
 [Pricing](https://venzari.co/pricing) · [Docs](https://docs.venzari.co) · [Enterprise](https://venzari.co/enterprise) · [Solutions](https://venzari.co/solutions) · [Jobs](https://venzari.co/jobs) · [Contact](https://venzari.co/contact) · [Discord](https://discord.gg/venzari)
-
----
 
 ---
 

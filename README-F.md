@@ -25,7 +25,6 @@
   </p>
   <p>
     <a href="https://venzari.co"><img src="https://img.shields.io/badge/venzari.co-3251fc?style=for-the-badge" alt="Website"/></a>
-    <a href="https://install.venzari.xyz"><img src="https://img.shields.io/badge/install-3251fc?style=for-the-badge" alt="Install"/></a>
     <a href="https://docs.venzari.co"><img src="https://img.shields.io/badge/docs-5EE7FF?style=for-the-badge" alt="Docs"/></a>
     <a href="https://venzari.co/pricing"><img src="https://img.shields.io/badge/pricing-3251fc?style=for-the-badge" alt="Pricing"/></a>
     <a href="https://discord.gg/venzari"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/></a>
@@ -35,6 +34,10 @@
 ---
 
 ## Three New Categories. Not Three Better Products.
+
+> [!TIP]
+> **Category design principle:** Never position as "better than" — always as "different category." The goal is not to win a comparison. It is to make comparison irrelevant.
+
 
 VENZARI does not compete in existing categories — it creates new ones. The goal of category design is not to win a comparison. It is to make comparison irrelevant.
 
@@ -56,7 +59,7 @@ VENZARI does not compete in existing categories — it creates new ones. The goa
 
 ### VENZARI ENGINE
 
-> [venzari.co/engine](https://venzari.co/engine) · `curl -fsSL https://install.venzari.xyz/engine | sh`
+> [venzari.co/engine](https://venzari.co/engine) · `see docs.venzari.co`
 >
 > *"AI data privacy is a structural problem, not a policy problem."*
 
@@ -109,7 +112,7 @@ Stage 3:  17-step hardware-customized plan from installer.venzari.xyz
 
 ### VENZARI CODE
 
-> [venzari.co/code](https://venzari.co/code) · `curl -fsSL https://install.venzari.xyz | bash && venzari-code install`
+> [venzari.co/code](https://venzari.co/code) · `see docs.venzari.co`
 >
 > *"AI coding tools are powerful and ungoverned. You need the governance layer."*
 
@@ -152,7 +155,7 @@ Corrections become rules — gets better at your project over time
 
 ### VENZARI AI AGENT
 
-> [venzari.co/products/venzari-ai-agent](https://venzari.co/products/venzari-ai-agent) · `curl -fsSL https://install.venzari.xyz/agent | sh`
+> [venzari.co/products/venzari-ai-agent](https://venzari.co/products/venzari-ai-agent) · `see docs.venzari.co`
 >
 > *"The problem with AI assistants is not that they're not smart enough. It's that they don't know you."*
 
@@ -203,9 +206,6 @@ Repeated patterns → new skills · Performance signals → improved skills · U
 
 CODE + ENGINE, one machine, fully wired.
 
-```bash
-curl -fsSL https://install.venzari.xyz/together | sh
-```
 
 CODE routes all inference through ENGINE's local LiteLLM. Zero cloud calls for development. Offline after install.
 
@@ -236,6 +236,19 @@ The complete VENZARI ecosystem under your brand.
 
 ---
 
+## Before and After
+
+| | Before VENZARI | After VENZARI |
+|---|---|---|
+| **Your data** | Vendor's servers — policy-protected | Your server — architecture-protected |
+| **Your cost** | Per-token, no ceiling | Flat monthly, no surprise |
+| **Your memory** | Session-only, starts over tomorrow | Permanent, cumulative, cross-channel |
+| **Your dev AI** | Suggestions, no governance, no record | 13 modes, evidence per action, audit trail |
+| **Your agent** | Forgets you every session | Knows you better every day |
+| **Your setup** | API key in minutes or 3–6 months | 20 minutes |
+| **What you own** | Nothing | The binary, the data, the future |
+
+
 ## The Category Evangelist's Playbook
 
 When someone asks how VENZARI compares to an existing product, the answer reframes the question:
@@ -253,16 +266,8 @@ The goal is not to win the comparison. It is to make the old comparison irreleva
 
 ## Start
 
-```bash
-curl -fsSL https://install.venzari.xyz/engine | sh           # private AI infrastructure
-curl -fsSL https://install.venzari.xyz | bash                # engineering OS
-curl -fsSL https://install.venzari.xyz/agent | sh            # persistent agent ($29/mo)
-curl -fsSL https://install.venzari.xyz/together | sh         # CODE + ENGINE together
-```
 
 [venzari.co](https://venzari.co) · [Pricing](https://venzari.co/pricing) · [Docs](https://docs.venzari.co) · [Enterprise](https://venzari.co/enterprise) · [Solutions](https://venzari.co/solutions) · [Jobs](https://venzari.co/jobs) · [Contact](https://venzari.co/contact) · [Discord](https://discord.gg/venzari)
-
----
 
 ---
 

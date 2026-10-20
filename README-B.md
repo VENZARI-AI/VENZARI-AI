@@ -25,7 +25,6 @@
 </p>
 <p align="center">
   <a href="https://venzari.co"><img src="https://img.shields.io/badge/-venzari.co-3251fc?style=flat-square" alt="Website"/></a>
-  <a href="https://install.venzari.xyz"><img src="https://img.shields.io/badge/-install%20now-3251fc?style=flat-square" alt="Install"/></a>
   <a href="https://docs.venzari.co"><img src="https://img.shields.io/badge/-docs-5EE7FF?style=flat-square" alt="Docs"/></a>
   <a href="https://venzari.co/pricing"><img src="https://img.shields.io/badge/-pricing%20from%20%2429-C1FF00?style=flat-square&logoColor=000" alt="Pricing"/></a>
   <a href="https://discord.gg/venzari"><img src="https://img.shields.io/badge/-Discord-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord"/></a>
@@ -57,7 +56,6 @@ You've been renting your intelligence. VENZARI ends the lease.
 > **Private AI Infrastructure · [venzari.co/engine](https://venzari.co/engine)**
 
 ```sh
-curl -fsSL https://install.venzari.xyz/engine | sh
 ```
 
 Install a complete AI system on any Linux VPS in 20 minutes. Local language models. Persistent memory. Voice synthesis. Workflow automation. Web dashboard. REST API. Custom fine-tuning. All on your server. All private by design.
@@ -111,7 +109,6 @@ Stage 3  ─  17-step hardware-customized plan from installer.venzari.xyz
 > **Engineering OS · [venzari.co/code](https://venzari.co/code)**
 
 ```sh
-curl -fsSL https://install.venzari.xyz | bash && venzari-code install
 ```
 
 Not an AI coding assistant. The governance system that decides when and how AI is allowed to interact with your codebase.
@@ -157,7 +154,6 @@ Tauri v2 desktop app  ·  JetBrains plugin  ·  6 MCP tools
 > **Persistent Autonomous Agent · [venzari.co/products/venzari-ai-agent](https://venzari.co/products/venzari-ai-agent)**
 
 ```sh
-curl -fsSL https://install.venzari.xyz/agent | sh
 ```
 
 Not a chatbot. A persistent autonomous entity that operates across every channel you use, remembers everything forever, and gets smarter every night automatically.
@@ -220,7 +216,6 @@ Circuit breaker (3 failures → bypass) · Budget monitor (downgrade at 80%) · 
 > **One Stack · [venzari.co/together](https://venzari.co/together)**
 
 ```sh
-curl -fsSL https://install.venzari.xyz/together | sh
 ```
 
 CODE + ENGINE, one machine, one installer, fully wired. CODE routes all AI inference through ENGINE's local LiteLLM gateway. Zero cloud calls for development. Offline capable after install.
@@ -251,16 +246,12 @@ venzari-code CLI → LiteLLM :4001 → Ollama :11434 → (your local models)
 
 ```sh
 # Engine (private AI infrastructure)
-curl -fsSL https://install.venzari.xyz/engine | sh
 
 # Code (engineering OS)
-curl -fsSL https://install.venzari.xyz | bash && venzari-code install
 
 # AI Agent (persistent agent)
-curl -fsSL https://install.venzari.xyz/agent | sh
 
 # Together (CODE + ENGINE)
-curl -fsSL https://install.venzari.xyz/together | sh
 ```
 
 [View all pricing →](https://venzari.co/pricing) · [Read docs →](https://docs.venzari.co) · [Join Discord →](https://discord.gg/venzari)
@@ -269,7 +260,7 @@ curl -fsSL https://install.venzari.xyz/together | sh
 
 ## Links
 
-[venzari.co](https://venzari.co) · [CODE](https://venzari.co/code) · [ENGINE](https://venzari.co/engine) · [AI AGENT](https://venzari.co/products/venzari-ai-agent) · [TOGETHER](https://venzari.co/together) · [ENTERPRISE](https://venzari.co/enterprise) · [PRICING](https://venzari.co/pricing) · [DOCS](https://docs.venzari.co) · [INSTALL](https://install.venzari.xyz) · [SOLUTIONS](https://venzari.co/solutions) · [JOBS](https://venzari.co/jobs) · [CONTACT](https://venzari.co/contact) · [DISCORD](https://discord.gg/venzari)
+[venzari.co](https://venzari.co) · [CODE](https://venzari.co/code) · [ENGINE](https://venzari.co/engine) · [AI AGENT](https://venzari.co/products/venzari-ai-agent) · [TOGETHER](https://venzari.co/together) · [ENTERPRISE](https://venzari.co/enterprise) · [PRICING](https://venzari.co/pricing) · [DOCS](https://docs.venzari.co) · [INSTALL](install.venzari.xyz (customers only)) · [SOLUTIONS](https://venzari.co/solutions) · [JOBS](https://venzari.co/jobs) · [CONTACT](https://venzari.co/contact) · [DISCORD](https://discord.gg/venzari)
 
 ---
 

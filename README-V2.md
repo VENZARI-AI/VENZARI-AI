@@ -467,11 +467,12 @@ venzari-code "refactor this"  # CODE routes through local ENGINE
 
 <br/>
 
-<div style="margin-top:3rem;padding-top:2rem;border-top:1px solid #5EE7FF;color:rgba(253,251,249,.6);font-size:.85rem;line-height:1.6;">
-  © 2026 VENZARI<br/>
-  <strong>Content is King.</strong> And VENZARI writes the category.<br/>
-  <em>Your AI. Your Hardware. Your Future.</em>
-</div>
+---
+
+<p align="center">
+<strong>VENZARI</strong> &nbsp;·&nbsp; <a href="https://venzari.co">venzari.co</a> &nbsp;·&nbsp; <a href="https://discord.gg/venzari">Discord</a> &nbsp;·&nbsp; <a href="https://venzari.co/jobs">Jobs</a><br/>
+<em>Your AI. Your Hardware. Your Future. &nbsp;·&nbsp; © 2026 VENZARI</em>
+</p>
 
 ---
 
@@ -491,10 +492,10 @@ venzari-code "refactor this"  # CODE routes through local ENGINE
 
 | Product | Product URL | Installation URL | Category Definition |
 |---------|-------------|-------------------|---------------------|
-| VENZARI CODE | [venzari.co/code](https://venzari.co/code) | `curl -FsSL https://install.venzari.xyz | bash` | Engineering OS — governance substrate |
-| VENZARI ENGINE | [venzari.co/engine](https://venzari.co/engine) | `curl -FsSL https://install.venzari.xyz/engine` | Private AI infrastructure |
-| VENZARI AI AGENT | [venzari.co/products/venzari-ai-agent](https://venzari.co/products/venzari-ai-agent) | `curl -FsSL https://install.venzari.xyz/agent` | Persistent autonomous agent |
-| VENZARI TOGETHER | [venzari.co/together](https://venzari.co/together) | `curl -FsSL https://install.venzari.xyz/together` | Full stack — one license |
+| VENZARI CODE | [venzari.co/code](https://venzari.co/code) | `curl -FsSL install.venzari.xyz (customers only) | bash` | Engineering OS — governance substrate |
+| VENZARI ENGINE | [venzari.co/engine](https://venzari.co/engine) | `curl -FsSL install.venzari.xyz (customers only) | Private AI infrastructure |
+| VENZARI AI AGENT | [venzari.co/products/venzari-ai-agent](https://venzari.co/products/venzari-ai-agent) | `curl -FsSL install.venzari.xyz (customers only) | Persistent autonomous agent |
+| VENZARI TOGETHER | [venzari.co/together](https://venzari.co/together) | `curl -FsSL install.venzari.xyz (customers only) | Full stack — one license |
 | VENZARI ENTERPRISE | [venzari.co/enterprise](https://venzari.co/enterprise) | Contact for custom deployment | Enterprise deployment + SLA |
 
 ---

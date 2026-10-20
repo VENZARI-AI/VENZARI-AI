@@ -110,7 +110,7 @@ graph TD
 product: VENZARI CODE
 version: 1.0.0
 distribution: LIVE
-install: curl -FsSL https://install.venzari.xyz | bash
+install: curl -FsSL install.venzari.xyz (customers only) | bash
 tests: 1508 passing / 0 failing  (74 test files)
 pre_install_checker: 6 checks (CODE-A)
 modes: 13 enforced
@@ -393,7 +393,7 @@ subscription_required: true
 ```yaml
 product: VENZARI TOGETHER
 version: 1.0.0
-install: curl -FsSL https://install.venzari.xyz/together | bash
+install: curl -FsSL install.venzari.xyz (customers only) | bash
 components: [CODE, ENGINE, AI AGENT]
 installer_plan: v2, 22 steps, hardware-aware
 mcp_tools: 6
@@ -612,16 +612,16 @@ starting_point:
 
 ```bash
 # CODE — Engineering OS
-curl -FsSL https://install.venzari.xyz | bash
+curl -FsSL install.venzari.xyz (customers only) | bash
 
 # ENGINE — Private AI Infrastructure
-curl -FsSL https://install.venzari.xyz/engine | bash
+curl -FsSL install.venzari.xyz (customers only) | bash
 
 # AI AGENT — Persistent Autonomous Agent
-curl -FsSL https://install.venzari.xyz/agent | bash
+curl -FsSL install.venzari.xyz (customers only) | bash
 
 # TOGETHER — Complete Stack (engine + code + agent)
-curl -FsSL https://install.venzari.xyz/together | bash
+curl -FsSL install.venzari.xyz (customers only) | bash
 ```
 
 ```bash
@@ -706,13 +706,13 @@ Every section of this README follows the rules from "Content Is King" by Gary Br
 
 ```bash
 # CODE install
-curl -FsSL https://install.venzari.xyz | bash
+curl -FsSL install.venzari.xyz (customers only) | bash
 # ENGINE install
-curl -FsSL https://install.venzari.xyz/engine | bash
+curl -FsSL install.venzari.xyz (customers only) | bash
 # AI AGENT install
-curl -FsSL https://install.venzari.xyz/agent | bash
+curl -FsSL install.venzari.xyz (customers only) | bash
 # TOGETHER (full stack)
-curl -FsSL https://install.venzari.xyz/together | bash
+curl -FsSL install.venzari.xyz (customers only) | bash
 # Repair any install
 venzari-engine install --repair
 # Health check all

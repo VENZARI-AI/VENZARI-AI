@@ -25,7 +25,6 @@
   </p>
   <p>
     <a href="https://venzari.co"><img src="https://img.shields.io/badge/venzari.co-3251fc?style=for-the-badge" alt="Website"/></a>
-    <a href="https://install.venzari.xyz"><img src="https://img.shields.io/badge/install-3251fc?style=for-the-badge" alt="Install"/></a>
     <a href="https://docs.venzari.co"><img src="https://img.shields.io/badge/docs-5EE7FF?style=for-the-badge" alt="Docs"/></a>
     <a href="https://venzari.co/pricing"><img src="https://img.shields.io/badge/pricing-3251fc?style=for-the-badge" alt="Pricing"/></a>
     <a href="https://discord.gg/venzari"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/></a>
@@ -33,6 +32,10 @@
 </div>
 
 ---
+
+> [!IMPORTANT]
+> VENZARI creates three new product categories — not three better versions of existing tools. **Private AI Infrastructure** (ENGINE). **Engineering OS** (CODE). **Persistent Autonomous Agent** (AI AGENT). The comparison frame that matters is not "better vs worse" — it is "different kind of product."
+
 
 <br/>
 
@@ -52,7 +55,7 @@ VENZARI is built for the companies that have already noticed this, and the ones 
 
 > **The governance substrate on which AI-assisted development runs.**
 
-[venzari.co/code](https://venzari.co/code) · `curl -fsSL https://install.venzari.xyz | bash && venzari-code install`
+[venzari.co/code](https://venzari.co/code) · `see docs.venzari.co`
 
 AI coding tools are suggestion machines. They suggest well. But suggestion is not governance. There is no record of what they did. No enforcement of a workflow. No evidence that the code they produced was actually tested. You commit, and the history shows "AI-assisted" — and that's all it shows.
 
@@ -76,7 +79,7 @@ When you correct the AI, that correction becomes a rule. Every correction makes 
 
 > **The only AI system where data privacy is architecture, not policy.**
 
-[venzari.co/engine](https://venzari.co/engine) · `curl -fsSL https://install.venzari.xyz/engine | sh`
+[venzari.co/engine](https://venzari.co/engine) · `see docs.venzari.co`
 
 There are two kinds of privacy.
 
@@ -102,7 +105,7 @@ The company that needs private AI is not the five-person startup and not the For
 
 > **The first agent that earns loyalty through memory.**
 
-[venzari.co/products/venzari-ai-agent](https://venzari.co/products/venzari-ai-agent) · `curl -fsSL https://install.venzari.xyz/agent | sh`
+[venzari.co/products/venzari-ai-agent](https://venzari.co/products/venzari-ai-agent) · `see docs.venzari.co`
 
 The fundamental problem with AI assistants is not intelligence. It is memory. Every time you open a new conversation, the AI is meeting you for the first time. You spend twenty minutes re-establishing context — your project, your preferences, your decisions. The AI is capable. It knows nothing about you. You do the same twenty minutes tomorrow.
 
@@ -126,7 +129,7 @@ A CLI binary with 15+ commands. A native Tauri v2 desktop app with five tabs and
 
 > **One command. Both products. Fully wired. Zero cloud inference.**
 
-[venzari.co/together](https://venzari.co/together) · `curl -fsSL https://install.venzari.xyz/together | sh`
+[venzari.co/together](https://venzari.co/together) · `see docs.venzari.co`
 
 CODE and ENGINE on the same machine. One installer. Both products. CODE routes all AI inference through ENGINE's local LiteLLM gateway at :4001. No cloud calls for development. Offline after install.
 
@@ -157,16 +160,8 @@ The 22-step hardware-aware install plan detects your machine before selecting mo
 
 ## Start
 
-```bash
-curl -fsSL https://install.venzari.xyz | bash               # engineering OS
-curl -fsSL https://install.venzari.xyz/engine | sh          # private AI infrastructure
-curl -fsSL https://install.venzari.xyz/agent | sh           # persistent agent ($29/mo)
-curl -fsSL https://install.venzari.xyz/together | sh        # CODE + ENGINE together
-```
 
 [venzari.co](https://venzari.co) · [Pricing](https://venzari.co/pricing) · [Docs](https://docs.venzari.co) · [Enterprise](https://venzari.co/enterprise) · [Solutions](https://venzari.co/solutions) · [Jobs](https://venzari.co/jobs) · [Contact](https://venzari.co/contact) · [Discord](https://discord.gg/venzari)
-
----
 
 ---
 

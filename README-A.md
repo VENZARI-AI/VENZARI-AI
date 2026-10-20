@@ -30,7 +30,6 @@
 <!-- BADGE ROW 2: Links -->
 <p align="center">
   <a href="https://venzari.co"><img src="https://img.shields.io/badge/venzari.co-website-3251fc?style=flat-square&labelColor=0d0d0d" alt="Website"/></a>
-  <a href="https://install.venzari.xyz"><img src="https://img.shields.io/badge/install.venzari.xyz-quickstart-3251fc?style=flat-square&labelColor=0d0d0d" alt="Install"/></a>
   <a href="https://docs.venzari.co"><img src="https://img.shields.io/badge/docs.venzari.co-documentation-5EE7FF?style=flat-square&labelColor=0d0d0d" alt="Docs"/></a>
   <a href="https://venzari.co/pricing"><img src="https://img.shields.io/badge/from%20%2429%2Fmo-pricing-C1FF00?style=flat-square&labelColor=0d0d0d&logoColor=000" alt="Pricing"/></a>
   <a href="https://discord.gg/venzari"><img src="https://img.shields.io/badge/Discord-community-5865F2?style=flat-square&labelColor=0d0d0d&logo=discord&logoColor=white" alt="Discord"/></a>
@@ -81,7 +80,7 @@ VENZARI is not a better version of the tools you already use. It creates three n
 
 ## 🛡️ VENZARI ENGINE — Private AI Infrastructure
 
-> **[venzari.co/engine](https://venzari.co/engine)** · `curl -fsSL https://install.venzari.xyz/engine | sh`
+> **[venzari.co/engine](https://venzari.co/engine)** · `see docs.venzari.co`
 
 <table>
 <tr>
@@ -143,7 +142,7 @@ Every cloud AI vendor has a privacy policy. Policies change. VENZARI ENGINE's pr
 
 ## ⚙️ VENZARI CODE — Engineering OS
 
-> **[venzari.co/code](https://venzari.co/code)** · `curl -fsSL https://install.venzari.xyz | bash && venzari-code install`
+> **[venzari.co/code](https://venzari.co/code)** · `see docs.venzari.co`
 
 **Not an AI coding assistant. The OS that governs how AI touches your code.**
 
@@ -205,7 +204,7 @@ Tauri v2 desktop app   |  JetBrains plugin v0.2.2  |  6 MCP tools
 
 ## 🤖 VENZARI AI AGENT — Persistent Autonomous Agent
 
-> **[venzari.co/products/venzari-ai-agent](https://venzari.co/products/venzari-ai-agent)** · `curl -fsSL https://install.venzari.xyz/agent | sh`
+> **[venzari.co/products/venzari-ai-agent](https://venzari.co/products/venzari-ai-agent)** · `see docs.venzari.co`
 
 **Not a chatbot. An always-on entity that works everywhere you work, remembers everything you've ever told it, and gets smarter every night.**
 
@@ -259,7 +258,7 @@ Every night at 3am (configurable), the agent automatically:
 
 ## 🔗 VENZARI Together — One Stack
 
-> **[venzari.co/together](https://venzari.co/together)** · `curl -fsSL https://install.venzari.xyz/together | sh`
+> **[venzari.co/together](https://venzari.co/together)** · `see docs.venzari.co`
 
 CODE + ENGINE on a single machine. One installer. Both products wired together. CODE routes all AI inference through ENGINE's local LiteLLM — **zero cloud calls for development**.
 
@@ -383,16 +382,12 @@ Stage 3: 17-step hardware-customized install plan from installer.venzari.xyz
 
 ```bash
 # VENZARI CODE — Engineering OS
-curl -fsSL https://install.venzari.xyz | bash && venzari-code install
 
 # VENZARI ENGINE — Private AI
-curl -fsSL https://install.venzari.xyz/engine | sh
 
 # VENZARI AI AGENT — Persistent Agent
-curl -fsSL https://install.venzari.xyz/agent | sh
 
 # VENZARI Together — CODE + ENGINE on one machine
-curl -fsSL https://install.venzari.xyz/together | sh
 ```
 
 <br/>
@@ -407,19 +402,19 @@ curl -fsSL https://install.venzari.xyz/together | sh
 |---|---|---|---|
 | 🌐 [venzari.co](https://venzari.co) | ⚙️ [CODE](https://venzari.co/code) | 🛡️ [ENGINE](https://venzari.co/engine) | 🤖 [AI AGENT](https://venzari.co/products/venzari-ai-agent) |
 | 🔗 [Together](https://venzari.co/together) | 🏢 [Enterprise](https://venzari.co/enterprise) | 💰 [Pricing](https://venzari.co/pricing) | 📚 [Docs](https://docs.venzari.co) |
-| 🚀 [Install](https://install.venzari.xyz) | 🎯 [Solutions](https://venzari.co/solutions) | 💼 [Jobs](https://venzari.co/jobs) | 📩 [Contact](https://venzari.co/contact) |
+| 🚀 | 🎯 [Solutions](https://venzari.co/solutions) | 💼 [Jobs](https://venzari.co/jobs) | 📩 [Contact](https://venzari.co/contact) |
 | 💬 [Discord](https://discord.gg/venzari) | | | |
 
 </div>
 
 ---
 
-<div align="center" style="margin-top:2rem;padding-top:1.5rem;border-top:1px solid #5EE7FF;color:rgba(253,251,249,.6);font-size:.85rem;line-height:1.7;">
+---
 
-© 2026 VENZARI &nbsp;·&nbsp; <strong>Content is King.</strong> And VENZARI writes the category.<br/>
-<em>Your AI. Your Hardware. Your Future.</em>
-
-</div>
+<p align="center">
+<strong>VENZARI</strong> &nbsp;·&nbsp; <a href="https://venzari.co">venzari.co</a> &nbsp;·&nbsp; <a href="https://discord.gg/venzari">Discord</a> &nbsp;·&nbsp; <a href="https://venzari.co/jobs">Jobs</a><br/>
+<em>Your AI. Your Hardware. Your Future. &nbsp;·&nbsp; © 2026 VENZARI</em>
+</p>
 
 <script>
   (function() {
