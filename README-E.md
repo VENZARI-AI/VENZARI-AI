@@ -24,97 +24,87 @@
     <a href="https://venzari.co/enterprise"><img src="https://img.shields.io/badge/ENTERPRISE-White%20Label-FF38D4?style=for-the-badge" alt="ENTERPRISE"/></a>
   </p>
   <p>
-    <a href="https://venzari.co"><img src="https://img.shields.io/badge/venzari.co-3251fc?style=for-the-badge" alt="Website"/></a>
-    <a href="https://docs.venzari.co"><img src="https://img.shields.io/badge/docs-5EE7FF?style=for-the-badge" alt="Docs"/></a>
-    <a href="https://venzari.co/pricing"><img src="https://img.shields.io/badge/pricing-3251fc?style=for-the-badge" alt="Pricing"/></a>
-    <a href="https://discord.gg/venzari"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/></a>
+    <a href="https://venzari.co">🌐 Website</a> &nbsp;·&nbsp;
+    <a href="https://docs.venzari.co">📚 Docs</a> &nbsp;·&nbsp;
+    <a href="https://venzari.co/pricing">💰 Pricing</a> &nbsp;·&nbsp;
+    <a href="https://discord.gg/venzari">💬 Discord</a> &nbsp;·&nbsp;
+    <a href="https://venzari.co/jobs">💼 Careers</a>
   </p>
-</div>
-
----
-
-<div align="center">
-
-| ⚙️ Engineering OS | 🛡️ Private AI | 🤖 Persistent Agent |
-|:---:|:---:|:---:|
-| **VENZARI CODE** | **VENZARI ENGINE** | **VENZARI AI AGENT** |
-| The OS that governs how AI touches your code | Complete private AI stack on your hardware | Always-on agent across 6 channels, learns nightly |
-
 </div>
 
 <details>
 <summary><kbd>📋 Table of Contents</kbd></summary>
 
 - [The Problem](#the-problem)
-- [VENZARI CODE — Engineering OS](#️-venzari-code--engineering-os)
-- [VENZARI ENGINE — Private AI Infrastructure](#️-venzari-engine--private-ai-infrastructure)
-- [VENZARI AI AGENT — Persistent Autonomous Agent](#-venzari-ai-agent--persistent-autonomous-agent)
-- [VENZARI Together](#-venzari-together)
+- [⚙️ VENZARI CODE — Engineering OS](#️-venzari-code--engineering-os)
+- [🛡️ VENZARI ENGINE — Private AI Infrastructure](#️-venzari-engine--private-ai-infrastructure)
+- [🤖 VENZARI AI AGENT — Persistent Autonomous Agent](#-venzari-ai-agent--persistent-autonomous-agent)
+- [🔗 VENZARI Together](#-venzari-together)
 - [Their Way vs VENZARI](#their-way-vs-venzari)
+- [The Installer](#the-installer)
 - [Get Started](#get-started)
 
 </details>
-
 
 ---
 
 ## The Problem
 
-Every company using cloud AI is making the same two bets without realizing it.
+Every company using cloud AI is making two silent bets.
 
-**Bet one:** that the vendor's privacy policy will protect your data forever — never changing, never overridden by an acquisition, never subject to a court order. Your data is on their server. Your trust is in a document.
+**Bet one:** that a vendor's privacy policy will protect sensitive business data forever — through acquisitions, policy changes, and legal requests. The data is on their server. The promise is in a document.
 
-**Bet two:** that AI coding tools without governance, memory, or accountability are acceptable in production engineering environments. No record of what the AI did. No evidence that the code was tested. No way to audit the decision trail.
+**Bet two:** that AI coding tools with no governance, no memory, and no evidence trail are acceptable in production engineering environments. Commits ship with no record of what the AI actually did.
 
-VENZARI doesn't ask you to make those bets.
+**VENZARI doesn't ask you to make either bet.** Three new product categories. The only complete private AI ecosystem.
 
 ---
 
 ## ⚙️ VENZARI CODE — Engineering OS
 
-> [venzari.co/code](https://venzari.co/code) · `see docs.venzari.co`
-
-Not an AI coding assistant. The governance layer that decides what AI is allowed to do, in which phase, with what evidence required to complete.
-
-The distinction matters: AI coding assistants are suggestion tools. **VENZARI CODE is the operating system that tools run under.** It tells AI what it is permitted to do, enforces those permissions at the system call level, collects evidence for every action, and builds permanent memory of your codebase across sessions.
-
+> **[venzari.co/code](https://venzari.co/code)** · *The governance layer above AI — not a better coding assistant*
 
 > [!NOTE]
-> VENZARI CODE and GitHub Copilot are not competitors — they coexist. Copilot is a suggestion tool. CODE is the OS that governs when and how suggestions interact with your codebase.
+> VENZARI CODE and Copilot are not competitors. They coexist. Copilot is a suggestion tool. CODE is the operating system that governs when and how suggestions are allowed to touch your codebase.
 
-### 13 Operating Modes — Governance Enforced Per Phase
+### Why This Is a New Category
 
-| Mode | Permissions | Evidence Required |
-|------|-------------|------------------|
-| **1. Discover** | Read only. Zero writes. | Observational report |
-| **2. Plan** | Write plan document. No code. No execution. | Plan document |
-| **3. Implement** | Execute within approved scope only. | Working code |
-| **4. Validate** | Run tests. Must produce **actual test output** — not a claim. | Real test results |
-| **5. Review** | Read-only analysis. Static scan + security. | Review report |
-| **6. Repair** | Fix the specific failure only. Scope locked. | Fix diff |
-| **7. Commit** | Git operations only. Evidence attached. | Structured commit + evidence chain |
-| **8. Advisor** | Analysis only. No writes, no execution. | Analysis document |
-| **9. Handoff** | Produce structured session summary. | Handoff document |
-| **10. Audit** | Review session evidence records. | Audit report |
-| **11. Benchmark** | Controlled performance regression testing. | Benchmark data |
-| **12. Migration** | Full write + execute for large-scale changes. | Migration plan + execution log |
-| **13. Release** | Full access including deploy operations. | Release evidence chain |
+AI coding assistants are suggestion machines. No memory between sessions. No enforcement of workflow. No record of what happened. You get a commit — the history says "AI-assisted" and that's all it says.
 
-### The Companion System — Your Project's Permanent Intelligence
+VENZARI CODE is the **operating system** that sits above AI models. It tells AI what it is permitted to do, in which phase, with what evidence required to complete. 13 operating modes. Each with different tool permissions. Each with different evidence requirements.
+
+### The 13-Mode Lifecycle
+
+| Mode | What the AI may do | What it must prove |
+|------|---------------------|-------------------|
+| **Discover** | Read only. Write nothing. | Observational report |
+| **Plan** | Write a plan document. No code. | Plan document |
+| **Implement** | Execute within approved scope only. | Working code |
+| **Validate** | Run tests. Produce **actual output** — not a claim. | Real test results |
+| **Review** | Read-only analysis + security scan. | Review report |
+| **Repair** | Fix the specific failure only. Scope locked. | Fix diff |
+| **Commit** | Git operations only. Evidence attached. | Commit + evidence chain |
+| **Advisor** | Analysis only. Zero writes. | Analysis document |
+| **Handoff** | Structured session summary. | Handoff document |
+| **Audit** | Review session evidence. | Audit report |
+| **Benchmark** | Performance regression tracking. | Benchmark data |
+| **Migration** | Full write + execute for large-scale changes. | Migration plan |
+| **Release** | Full access including deploy. | Release evidence chain |
+
+### The Companion System — `.venzari/` in Your Project
 
 ```
-.venzari/
-├── agents/    # configured roles with specific capabilities and constraints
-├── skills/    # 24 native + 216 vendor task templates
-├── tasks/     # structured definitions with opening and closing gates
-├── rules/     # project-specific constraints overriding defaults
-├── memory/    # session history, codegraph, architectural decisions
-└── gates/     # automated checks that must pass before any task completes
+agents/    configured roles with specific capabilities and constraints
+skills/    24 native + 216 vendor task templates
+tasks/     structured definitions with opening and closing gates
+rules/     project-specific constraints — overrides defaults
+memory/    session history, codegraph, architectural decisions
+gates/     automated checks that must pass before task completion
 ```
 
-Return months later. CODE reads the companion and knows exactly where you left off. Every correction you make becomes a rule — the system gets better at your specific project.
+Return months later. CODE reads the companion and knows exactly where you left off. When you correct the AI, that correction becomes a rule — the system gets better at your specific project over time.
 
-### Five Governance Components
+### The Five Governance Components
 
 | Component | What it enforces |
 |-----------|-----------------|
@@ -122,144 +112,110 @@ Return months later. CODE reads the companion and knows exactly where you left o
 | **Tool Guard** | Per-mode allowlists at the system call level — not a prompt, a structural constraint |
 | **Loop Detector** | 3 identical attempts without progress → stop, escalate to human review |
 | **Evidence Collector** | Every tool call logged: input · output · timestamp. Immutable. Follows every commit. |
-| **Context Assembler** | Constructs <4,000 char synthetic window of the most relevant project knowledge |
+| **Context Assembler** | Synthetic context under 4,000 chars — most relevant project knowledge, no overflow |
 
-### Verified Numbers
+### Ships With Every Install
 
 ```
 1,508 tests passing · 0 failing · 74 test files
-Tauri v2 desktop app (.AppImage / .deb / .rpm) · JetBrains plugin v0.2.2
-6 MCP tools · 6 languages (en/es/fr/de/ja/pt) · 4-job security CI
-24 native + 216 vendor companion skills
+Desktop app (Tauri v2) · JetBrains plugin · Customer dashboard
+6 MCP tools · 6 languages · 4-job security CI pipeline
 Multi-agent: SubagentPool + SwarmCoordinator + DAG branching
-Goal mode: venzari-code goal "<objective>" — autonomous, budget-capped
+Goal mode: describe objective → autonomous execution, budget-capped
 ```
 
 ---
 
 ## 🛡️ VENZARI ENGINE — Private AI Infrastructure
 
-> [venzari.co/engine](https://venzari.co/engine) · `see docs.venzari.co`
-
-A complete AI system on a VPS you own. 20 minutes from nothing to persistent memory, local voice, workflow automation, web dashboard, REST API, and semantic search — all running on your hardware.
-
-**The privacy is architectural.**
-
-> *"We don't just say your data is private. Your data physically cannot leave your hardware."*
-
-Cloud AI privacy is a legal document. ENGINE's privacy is the product design. There is no mechanism for VENZARI to access your data. You can close the internet connection after installation and the system keeps running.
-
+> **[venzari.co/engine](https://venzari.co/engine)** · *Structural privacy. Not policy privacy.*
 
 > [!IMPORTANT]
-> **Structural privacy vs policy privacy:** Cloud AI privacy is a legal document. ENGINE's privacy is the architecture — there is no mechanism for VENZARI to access your data. You can close the internet after installation and the system keeps running.
+> **The difference:** Cloud AI privacy is a legal document. It can change. ENGINE's privacy is the architecture — your data physically cannot leave your hardware because there is no mechanism for it to. You can close the internet after installation and the system runs.
 
-### 7 Features — All Live, All On Your Hardware
+### What "Private AI Infrastructure" Means
 
-| # | Feature | What it means |
-|---|---------|---------------|
-| 1 | **Conversational AI + permanent memory** | Every conversation, every decision, indefinitely private |
-| 2 | **Local voice synthesis + recognition** | Offline TTS + STT — zero cloud audio |
-| 3 | **Business workflow automation** | Reports, email, CRM, calendar — all local API calls |
-| 4 | **Web dashboard** | Full UI at `ai.yourcompany.com` — chat, memory, voice, workflows |
-| 5 | **REST API** | Connect ERP, CRM, ticketing, HR locally |
-| 6 | **Semantic memory search** | *"What did we discuss about Acme in March?"* → instant |
-| 7 | **Custom fine-tuning** *(Growth+)* | Train on your data, model runs locally |
+A complete AI system — conversational AI, voice, automation, dashboard, API, semantic search, custom training — running on a VPS you own. Fixed monthly cost. No per-token billing. No cloud dependency. Offline-capable after installation.
 
-### The Installer — 20 Minutes to a Complete Private AI Stack
+### 7 Features — All Live, All on Your Hardware
 
-**Stage 1 — 11 pre-install checks (parallel, before any wizard question):**
+| # | Feature | What it delivers |
+|---|---------|-----------------|
+| 1 | **Conversational AI + permanent memory** | Builds cumulative understanding of your business — every conversation, permanently |
+| 2 | **Local voice (TTS + STT)** | Offline synthesis and recognition — voice data never leaves your server |
+| 3 | **Workflow automation** | Reports, email, CRM, calendar — all local, no external API calls |
+| 4 | **Web dashboard** | Full UI at your domain — chat, memory search, voice, workflows, monitoring |
+| 5 | **REST API** | Connect your ERP, CRM, HR systems — locally |
+| 6 | **Semantic memory search** | *"What did we discuss about the Acme contract?"* → instant natural language answer |
+| 7 | **Custom fine-tuning** *(Growth+)* | Train on your data, run the model locally |
 
-| Check | Warn | Fail |
-|-------|------|------|
-| RAM | < 16 GB | < 8 GB |
-| Disk | < 40 GB free | < 60 GB free |
-| Ports 4001/11434/5432/6379 | — | Occupied |
-| Docker | Not running | Not installed |
-| Internet | — | No connectivity |
-| Sudo access | — | Not available |
+### The 3-Stage Installer — 20 Minutes to a Full Private AI Stack
 
-Any failure stops immediately with exact fix instructions.
+**Stage 1 — 11 pre-install checks** run in parallel before any wizard question. RAM, disk, required ports, container runtime, internet connectivity, admin access, existing installation detection. Any failure stops with exact fix instructions — no partial states, no mystery errors.
 
-**Stage 2 — 7 questions:** Server identity · License key · AI provider (local-only / local+cloud / cloud) · Model selection (hardware-adaptive) · Add-ons · Confirmation
+**Stage 2 — 7-question wizard** configures what can't be auto-detected: server identity, license key, AI provider preference (local-only, local + cloud, or cloud-only), model selection with hardware-adaptive recommendations, optional add-ons.
 
-**Stage 3 — 17 hardware-customized steps** from `installer.venzari.xyz`: Binary download (SHA256) → models → docker-compose → health checks → SSL → ecosystem wiring → MCP registration
+**Stage 3 — 17 hardware-customized steps** generated for your specific machine by the VENZARI installer service. Verified binary download → model pulls → service startup → health checks → SSL setup → ecosystem wiring → MCP registration. 2,301 automated tests back every step. Resumable — the resume-repair command skips completed steps and retries from the failure point.
 
-**2,301 automated tests. Resumable: `venzari-engine install --repair`**
+### Hardware Requirements
 
-### All 33 Phases Complete — v1.0.0 Launched 2026-09-05
+| Resource | Minimum | Recommended |
+|----------|---------|-------------|
+| RAM | 8 GB | 32–64 GB |
+| Storage | 60 GB SSD | 200 GB NVMe |
+| CPU | 4 cores | 16+ cores |
+| GPU | Not required | NVIDIA ≥8 GB VRAM (5–15× faster) |
+| OS | Ubuntu 22.04 LTS | Ubuntu 22.04 LTS |
 
-```
-Core stack · wizard · smart installer · LiteLLM · SSL · security · observability
-Custom training pipeline (Growth+) · Prometheus + Grafana observability
-Self-update: venzari-engine upgrade · 6-language CLI
-Security CI: 0 vulns · 0 secrets · 0 GPL/AGPL · CycloneDX SBOM
-Ecosystem: auto-detect CODE + AI AGENT · 16-tool MCP server
-E2E smoke test: 15/15 checks · public GitHub Release v1.0.0
-```
+**v1.0.0 · All 33 phases complete · Launched 2026-09-05**
 
 ---
 
 ## 🤖 VENZARI AI AGENT — Persistent Autonomous Agent
 
-> [venzari.co/products/venzari-ai-agent](https://venzari.co/products/venzari-ai-agent) · `see docs.venzari.co`
+> **[venzari.co/products/venzari-ai-agent](https://venzari.co/products/venzari-ai-agent)** · *Starting at $29/month*
 
-Not a chatbot. An always-on entity that operates across every channel you use, remembers everything permanently, and becomes measurably more capable every night.
+### Why This Is a New Category
+
+Chatbots are stateless. They answer questions and forget you. VENZARI AI AGENT is an always-on autonomous entity — not a conversation interface. It operates across every channel you use simultaneously, remembers every interaction permanently, and becomes more capable every night.
 
 ### 6 Live Channels — One Agent, One Memory
 
-| Channel | Status | What it means |
-|---------|--------|---------------|
-| Telegram | ✅ Live | Start here — context carries everywhere |
-| Slack | ✅ Live | Continue where you left off |
-| Discord | ✅ Live | Same agent, same memory |
-| Email (Mailgun/Acelle) | ✅ Live | Full async, persistent context |
-| Web chat widget | ✅ Live | Embeddable, branded |
-| Webhook | ✅ Live | Programmatic access |
+`Telegram` · `Slack` · `Discord` · `Email` · `Web chat` · `Webhook`
+
+Start on Telegram. Continue on Slack. Finish via email. Same agent. Same memory. Zero re-explaining.
 
 ### 3-Signal Memory — Nothing Falls Through
 
-| Signal | Speed | Retrieves |
-|--------|-------|-----------|
-| Vector embeddings | 50ms | Semantically similar content — even without exact words |
-| BM25 full-text | 10ms | Exact phrases — code snippets, names, precise terms |
-| PageRank graph | 5ms | Most-referenced facts — importance-weighted |
+| Signal | Speed | What it retrieves |
+|--------|-------|------------------|
+| Vector embeddings | 50ms | Semantic — relevant content even without exact words |
+| BM25 full-text | 10ms | Exact — code snippets, names, precise phrases |
+| PageRank graph | 5ms | Important — most-referenced facts surface first |
 
-### 2,212 Skills — Tiered by Quality, Invoked Automatically
+### 2,212 Skills — Invoked Automatically
 
-```
-  11 S-tier  ·  flagship capabilities, highest reliability, most maintained
- 522 A-tier  ·  high quality, broad coverage, day-to-day backbone
-1679 B-tier  ·  community catalog, wide reach, growing continuously
-```
+- **11 S-tier** — flagship capabilities, highest reliability, most maintained
+- **522 A-tier** — high quality, broad coverage, the day-to-day backbone
+- **1,679 B-tier** — community catalog, wide reach, growing continuously
 
-```bash
-venzari-agent skills list             # browse all 2,212
-venzari-agent skills search "email"   # search by keyword
-venzari-agent skills run <id>         # run directly
-```
+No manual selection. You describe what you need. The agent finds the skill.
 
 ### The Nightly Learning Loop
 
-Every night at 3am, the agent:
-1. **Creates new skills** from repeated task patterns
-2. **Improves existing skills** based on usage signals
-3. **Updates your context model** — knows you better every day
-4. **Compresses old interactions** — retains key facts, removes noise
+Every night at 3am: repeated patterns → new skills created · underperforming skills improved · context model updated · old interactions compressed. You go to sleep with an agent. You wake up with a better one.
 
-### 8-Provider Router — Intelligence Is Never Blocked
+### 8-Provider Model Router
 
-```
-Local Ollama (free/private) → Groq → Gemini → OpenRouter
-→ Cerebras → Anthropic → OpenAI → Bedrock
-```
+`Local inference` → `Groq` → `Gemini` → `OpenRouter` → `Cerebras` → `Anthropic` → `OpenAI` → `Bedrock`
 
-Circuit breaker: 3 failures → bypass + auto-recovery · Budget monitor: downgrade at 80% · ENGINE: auto-routes through LiteLLM :4001 with zero config
+Circuit breaker (3 failures → bypass) · Budget monitor (downgrade at 80%) · ENGINE: auto-routes through local AI gateway with zero config
 
 ### Everything That Ships With AI AGENT
 
 - `venzari-agent` CLI — 15+ commands: start · stop · doctor · skills · memory · channels · upgrade
 - **Native desktop app** (Tauri v2) — 5 tabs: Chat · Skills · Memory · Channels · Settings · system tray
-- **9-page dashboard** at agent.venzari.co — including the AI Router page (unique in the market)
+- **9-page dashboard** at agent.venzari.co — including AI Router page (unique in market)
 - **12 MCP tools** for Claude Code, Cursor, Kiro, VS Code, Gemini CLI
 - 422 tests passing · 0 failing · auto-wires to ENGINE and CODE
 
@@ -267,69 +223,60 @@ Circuit breaker: 3 failures → bypass + auto-recovery · Budget monitor: downgr
 
 ## 🔗 VENZARI Together
 
-> [venzari.co/together](https://venzari.co/together) · `see docs.venzari.co`
+> **[venzari.co/together](https://venzari.co/together)** · *CODE + ENGINE on one machine, zero cloud inference*
 
-CODE + ENGINE on one machine. Fully wired. CODE routes all AI inference through ENGINE's local LiteLLM at :4001. **Zero cloud calls for development. Offline after install.**
+Two products. One installer. Fully wired. CODE routes all AI inference through ENGINE's local AI gateway. No cloud calls for development. Offline after installation.
 
-```
-Your Machine
-  venzari-code CLI  →  LiteLLM :4001  →  Ollama :11434  →  local models
-                         ↑ ENGINE provides
-  ENGINE Dashboard :3000
-  ~/.venzari-together/
-```
+**Requirements:** 8 GB RAM minimum (16 GB recommended) · 20 GB disk · Ubuntu 20.04+
 
-22-step hardware-aware install plan · 8 GB RAM min, 16 GB recommended · 20 GB disk
+---
+
+## 🏢 VENZARI Enterprise
+
+> **[venzari.co/enterprise](https://venzari.co/enterprise)** · *White-label · SLA · Dedicated infrastructure*
+
+White-label deployment of the complete VENZARI ecosystem under your brand. Custom skill development, managed fleet, dedicated infrastructure, direct team access, full SLA. [Contact us →](https://venzari.co/contact)
 
 ---
 
 ## Their Way vs. VENZARI
 
-| | **Cloud AI** | **Enterprise Platforms** | **VENZARI** |
-|---|---|---|---|
-| Data location | Vendor's cloud | Vendor's cloud | **Your server** |
-| Privacy type | Policy document | Policy document | **Architecture** |
-| Pricing | Per-token, no ceiling | $50,000+/year | **Flat monthly** |
-| Memory | Session only | Varies | **Permanent** |
-| Governance (dev) | None | None | **13-mode lifecycle** |
-| Setup time | API key = minutes; own stack = 3-6 months | 3-6 months | **20 minutes** |
-| What you own | Nothing | Nothing | **Binary, data, future** |
-| Works offline | No | No | **Yes** |
+| Question | Cloud AI + Copilot + Chatbot | **VENZARI** |
+|----------|------|------|
+| Where does the data go? | Vendor's cloud | **Your server** |
+| What's the privacy guarantee? | Policy document | **Architecture** |
+| What does it cost? | Per-token, no ceiling | **Flat monthly** |
+| Does it remember you? | Session only — starts over tomorrow | **Everything. Permanently.** |
+| Is AI development governed? | No record, no enforcement | **13 modes, evidence per commit** |
+| How long to set up? | API key (minutes) or build-your-own (months) | **20 minutes** |
+| What do you own? | Nothing | **The binary, the data, the future** |
+| Works offline? | No | **Yes** |
 
 ---
 
-## The Installer Is the Product
+## The Installer
 
-**11 checks.** Every problem found before installation begins. No partial states. No mystery errors.
+**11 checks before a single question is asked.** Every potential problem found and described precisely — not after an installation fails, before it begins.
 
-**7 questions.** Server identity, license, AI provider preference, model selection. Nothing more.
+**7 questions configure everything else.** Server identity, license key, AI provider preference, hardware-adaptive model selection. That's it.
 
-**17 steps.** Hardware-customized by `installer.venzari.xyz`. Each step has retry logic. The install is resumable — `venzari-engine install --repair` skips completed steps and retries from the failure point.
+**17 hardware-customized steps execute the plan.** Generated for your specific machine. Each step has retry logic. 2,301 automated tests back every step. Resumable at any point.
 
-**2,301 automated tests** have been run against hundreds of hardware configurations. This is not a script. It is a tested, resumable, state-machine installer.
-
-Install once. Run offline forever. Starting at $29/month.
+The installer is the product. It is what makes private AI infrastructure accessible to companies that could never build it themselves.
 
 ---
 
 ## Get Started
 
-> [docs.venzari.co](https://docs.venzari.co) · [venzari.co/pricing](https://venzari.co/pricing) · [venzari.co/contact](https://venzari.co/contact)
+**→ [venzari.co/pricing](https://venzari.co/pricing)** — pick a product, pick a plan
 
+**→ [docs.venzari.co](https://docs.venzari.co)** — full documentation
 
-```bash
-# Engineering OS
+**→ [venzari.co/enterprise](https://venzari.co/enterprise)** — for dedicated infrastructure and white-label
 
-# Private AI Infrastructure  
+**→ [venzari.co/contact](https://venzari.co/contact)** — talk to the team
 
-# Persistent Agent — starting at $29/month
-
-# CODE + ENGINE, one machine
-```
-
-[Pricing](https://venzari.co/pricing) · [Docs](https://docs.venzari.co) · [Enterprise](https://venzari.co/enterprise) · [Solutions](https://venzari.co/solutions) · [Jobs](https://venzari.co/jobs) · [Contact](https://venzari.co/contact) · [Discord](https://discord.gg/venzari)
-
----
+[venzari.co](https://venzari.co) · [Solutions](https://venzari.co/solutions) · [Jobs](https://venzari.co/jobs) · [Discord](https://discord.gg/venzari)
 
 ---
 
