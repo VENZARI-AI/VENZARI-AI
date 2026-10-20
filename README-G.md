@@ -356,23 +356,9 @@ curl -fsSL https://install.venzari.xyz/together | sh        # full stack
 
 ---
 
-<p align="center">
-  <sub>© 2026 VENZARI &nbsp;·&nbsp; <em>Your AI. Your Hardware. Your Future.</em></sub>
-</p>
+---
 
-<script>
-  (function() {
-    var html = document.documentElement;
-    html.style.fontFamily = "'Poppins','Unbounded',system-ui,sans-serif";
-    var heads = document.getElementsByTagName('head');
-    if (heads.length > 0) {
-      var link = document.createElement('link');
-      link.rel = 'preconnect'; link.href = 'https://fonts.googleapis.com';
-      heads[0].appendChild(link);
-      var unbounded = document.createElement('link');
-      unbounded.rel = 'stylesheet';
-      unbounded.href = 'https://fonts.googleapis.com/css2?family=Unbounded&display=swap';
-      heads[0].appendChild(unbounded);
-    }
-  })();
-</script>
+<p align="center">
+<strong>VENZARI</strong> &nbsp;·&nbsp; <a href="https://venzari.co">venzari.co</a> &nbsp;·&nbsp; <a href="https://discord.gg/venzari">Discord</a> &nbsp;·&nbsp; <a href="https://venzari.co/jobs">Jobs</a><br/>
+<em>Your AI. Your Hardware. Your Future. &nbsp;·&nbsp; © 2026 VENZARI</em>
+</p>
