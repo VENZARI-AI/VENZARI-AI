@@ -27,6 +27,12 @@
     <a href="https://venzari.co/engine"><img src="https://img.shields.io/badge/VENZARI%20ENGINE-Private%20AI%20Infrastructure-C1FF00?style=for-the-badge&logoColor=000" alt="ENGINE"/></a>
     <a href="https://venzari.co/products/venzari-ai-agent"><img src="https://img.shields.io/badge/VENZARI%20AI%20AGENT-Persistent%20Autonomous-3251FC?style=for-the-badge" alt="AI AGENT"/></a>
   </p>
+
+  <p>
+    <img src="https://img.shields.io/badge/Tests-4%2C231%20Total-00D26A?style=flat-square" alt="Total Tests"/>
+    <img src="https://img.shields.io/badge/v1.0.0-Production-00D26A?style=flat-square" alt="Version"/>
+    <img src="https://img.shields.io/badge/Install-20%20minutes-3251FC?style=flat-square" alt="Install Time"/>
+  </p>
 </div>
 
 ---
@@ -274,6 +280,22 @@ VENZARI CODE is the **operating system** above AI models. 13 operating modes. Ea
 └───────────────────────────────────────────────────────┘
 ```
 
+### Who Uses CODE
+
+```
+┌─────────────────────────────────────────────┐
+│         CODE User Profiles                  │
+├─────────────────────────────────────────────┤
+│                                             │
+│  Solo devs        → Governance without team │
+│  Small teams      → Consistent standards    │
+│  Agencies         → Audit trails per client │
+│  Enterprises      → Regulatory compliance   │
+│  OSS maintainers  → Evidence for AI contrib │
+│                                             │
+└─────────────────────────────────────────────┘
+```
+
 **[→ venzari.co/code](https://venzari.co/code)** · **[→ docs.venzari.co/code](https://docs.venzari.co/code)**
 
 ---
@@ -468,6 +490,23 @@ Stage 3: 17-Step Hardware-Customized Plan (from VENZARI installer service)
 </tr>
 </table>
 
+### Who Uses ENGINE
+
+```
+┌────────────────────────────────────────────┐
+│        ENGINE User Profiles                │
+├────────────────────────────────────────────┤
+│                                            │
+│  Healthcare      → HIPAA compliance        │
+│  Legal           → Attorney-client priv    │
+│  Financial       → Regulatory requirements │
+│  Government      → Air-gapped environments │
+│  Enterprise 500+ → Cost predictability     │
+│  Privacy-first   → Competitive advantage   │
+│                                            │
+└────────────────────────────────────────────┘
+```
+
 > **You close your internet connection after installation and the system continues to function.**
 
 **[→ venzari.co/engine](https://venzari.co/engine)** · **[→ docs.venzari.co/engine](https://docs.venzari.co/engine)**
@@ -607,13 +646,55 @@ Local → Groq → Gemini → OpenRouter → Cerebras → Anthropic → OpenAI �
   │       │       │          │            │           │          │        │
   │       │       │          │            │           │          │        │
  Free   Fast    Free     Variety      Ultra      Quality    Struct   Enterprise
- Private  GPU    Tier     Access       Fast      Reasoning   Output   Compliance
+Private  GPU    Tier     Access       Fast      Reasoning   Output   Compliance
                                    1800 tok/s
 ```
+
+| Provider | When Used |
+|----------|-----------|
+| **Local** | Primary — always first, free, private |
+| **Groq** | Fallback when local fails, fast GPU |
+| **Gemini** | Secondary cloud, free tier |
+| **OpenRouter** | Specific model needed, broad variety |
+| **Cerebras** | Speed-critical (1800 tokens/sec) |
+| **Anthropic** | Claude-specific requirements |
+| **OpenAI** | GPT-4/Turbo needed |
+| **Bedrock** | Already on AWS infrastructure |
 
 - **Circuit breaker:** 3 failures → bypass provider, auto-recovery probe after cooldown
 - **Budget monitor:** approaching limit → downgrade to cheaper model tier, alert user
 - **ENGINE integration:** if installed, all calls route through local gateway (zero config)
+
+### Pricing + Who Uses It
+
+<table>
+<tr>
+<td valign="top" width="50%">
+
+**Pricing:**
+
+| Tier | Monthly | Channels | Skills |
+|------|---------|----------|--------|
+| **Starter** | $29 | 1 | 1,000 |
+| **Pro** | $99 | 6 | 2,212 |
+| **Team** | $299 | Unlimited | Custom |
+
+</td>
+<td valign="top" width="50%">
+
+**Who Uses It:**
+
+```
+Solo founders   → Always-on
+Remote teams    → All channels
+Support teams   → 24/7 coverage
+Sales teams     → Auto CRM
+VENZARI users   → NL interface
+```
+
+</td>
+</tr>
+</table>
 
 ### What Ships
 
@@ -627,14 +708,6 @@ Local → Groq → Gemini → OpenRouter → Cerebras → Anthropic → OpenAI �
 ✅  Auto-wires to ENGINE and CODE if co-installed
 ```
 
-### Pricing
-
-| Tier | Monthly | Channels | Skills | Support |
-|------|---------|----------|--------|---------|
-| **Starter** | $29 | 1 | 1,000 | Email |
-| **Pro** | $99 | 6 | 2,212 | Priority |
-| **Team** | $299 | Unlimited | Custom | Dedicated |
-
 **[→ venzari.co/products/venzari-ai-agent](https://venzari.co/products/venzari-ai-agent)** · **[→ docs.venzari.co/agent](https://docs.venzari.co/agent)**
 
 ---
@@ -643,6 +716,17 @@ Local → Groq → Gemini → OpenRouter → Cerebras → Anthropic → OpenAI �
 
 **Together** — [venzari.co/together](https://venzari.co/together)
 
+```
+Your Machine
+  ├── venzari-code CLI → routes to
+  │       ▼
+  ├── ENGINE gateway
+  │       ▼
+  ├── Local inference ← local models (qwen, llama, etc.)
+  ├── ENGINE Dashboard
+  └── ~/.venzari-together/ ← Together config dir
+```
+
 CODE + ENGINE on one machine. Fully wired. CODE routes all inference through ENGINE's local AI gateway. No cloud calls for development. Offline after install.
 
 **Requirements:** 8 GB RAM minimum (16 GB recommended), 20 GB disk, Ubuntu 20.04+
@@ -650,6 +734,13 @@ CODE + ENGINE on one machine. Fully wired. CODE routes all inference through ENG
 **Enterprise** — [venzari.co/enterprise](https://venzari.co/enterprise)
 
 White-label deployment under your brand. Custom skill development. Managed fleet. Dedicated infrastructure. Direct team access. Full SLA.
+
+| Dimension | Enterprise Platforms | VENZARI ENTERPRISE |
+|-----------|---------------------|---------------------|
+| **Price** | $100,000+/year | $5,988/year ($499/mo) |
+| **Setup** | 3–6 months | 20 minutes |
+| **Channels** | Limited | 6 live |
+| **Learning** | None | Nightly |
 
 **[→ venzari.co/contact](https://venzari.co/contact)** — Schedule a call
 
