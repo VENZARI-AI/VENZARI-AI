@@ -234,9 +234,9 @@ Every night at 3am (configurable), the agent automatically:
 
 ### 8-Provider Model Router
 
-`Local Ollama` (free, private) → `Groq` → `Gemini` → `OpenRouter` → `Cerebras` → `Anthropic` → `OpenAI` → `Bedrock`
+`Local local inference` (free, private) → `Groq` → `Gemini` → `OpenRouter` → `Cerebras` → `Anthropic` → `OpenAI` → `Bedrock`
 
-**Circuit breaker:** 3 failures → provider bypassed · **Budget monitor:** auto-downgrade at 80% · **ENGINE integration:** auto-routes through ENGINE LiteLLM :4001 with zero config
+**Circuit breaker:** 3 failures → provider bypassed · **Budget monitor:** auto-downgrade at 80% · **ENGINE integration:** auto-routes through ENGINE  with zero config
 
 ### Also Ships With
 
@@ -260,12 +260,12 @@ Every night at 3am (configurable), the agent automatically:
 
 > **[venzari.co/together](https://venzari.co/together)** · `see docs.venzari.co`
 
-CODE + ENGINE on a single machine. One installer. Both products wired together. CODE routes all AI inference through ENGINE's local LiteLLM — **zero cloud calls for development**.
+CODE + ENGINE on a single machine. One installer. Both products wired together. CODE routes all AI inference through ENGINE's local the AI gateway — **zero cloud calls for development**.
 
 ```
 Your Machine
-  ├── venzari-code CLI ──→ LiteLLM :4001 ──→ Ollama :11434 (local models)
-  ├── ENGINE Dashboard :3000
+  ├── venzari-code CLI ──→  ──→ local inference  (local models)
+  ├── ENGINE Dashboard 
   └── ~/.venzari-together/
 ```
 
@@ -340,19 +340,19 @@ Your Machine
 Most private AI infrastructure requires 3-6 months and a dedicated engineering team. VENZARI's installer does it in **20 minutes** with someone who knows SSH.
 
 ```
-Stage 1: 11 parallel pre-install checks (RAM / Disk / Ports / Docker / Internet / Sudo)
+Stage 1: 11 parallel pre-install checks (RAM / Disk / Ports / the container runtime / Internet / Sudo)
 Stage 2: 7-question setup wizard  
-Stage 3: 17-step hardware-customized install plan from installer.venzari.xyz
+Stage 3: 17-step hardware-customized install plan from the VENZARI installer service
 ```
 
-**2,301 automated tests** back every step. Fully resumable: `venzari-engine install --repair`. Works offline after install. Each step has retry logic. Nothing is silent — every failure tells you exactly what to fix.
+**2,301 automated tests** back every step. Fully resumable: `the resume-repair command`. Works offline after install. Each step has retry logic. Nothing is silent — every failure tells you exactly what to fix.
 
 | Check | Warn threshold | Fail threshold |
 |-------|---------------|----------------|
 | RAM | < 16 GB | < 8 GB |
 | Disk space | < 40 GB free | < 60 GB free |
 | Ports (4001/11434/5432/6379) | — | Occupied |
-| Docker | Not running | Not installed |
+| the container runtime | Not running | Not installed |
 | Internet | — | No connectivity |
 
 <br/>
@@ -380,15 +380,6 @@ Stage 3: 17-step hardware-customized install plan from installer.venzari.xyz
 
 ## ⚡ Quick Start
 
-```bash
-# VENZARI CODE — Engineering OS
-
-# VENZARI ENGINE — Private AI
-
-# VENZARI AI AGENT — Persistent Agent
-
-# VENZARI Together — CODE + ENGINE on one machine
-```
 
 <br/>
 

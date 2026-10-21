@@ -77,10 +77,10 @@ Install a complete AI system on any Linux VPS in 20 minutes. Local language mode
 ```
 Stage 1  ─  11 pre-install checks run in parallel before a single question is asked
 Stage 2  ─  7-question wizard: server identity, license, AI provider, model selection
-Stage 3  ─  17-step hardware-customized plan from installer.venzari.xyz
+Stage 3  ─  17-step hardware-customized plan from the VENZARI installer service
 ```
 
-**2,301 automated tests** back every step. Resumable at any point: `venzari-engine install --repair`.
+**2,301 automated tests** back every step. Resumable at any point: `the resume-repair command`.
 
 ### Hardware
 
@@ -190,7 +190,7 @@ Every night at 3am:
 
 ### 8-Provider Model Router
 
-`Ollama` (local, free) → `Groq` → `Gemini` → `OpenRouter` → `Cerebras` → `Anthropic` → `OpenAI` → `Bedrock`
+`local inference` (local, free) → `Groq` → `Gemini` → `OpenRouter` → `Cerebras` → `Anthropic` → `OpenAI` → `Bedrock`
 
 Circuit breaker (3 failures → bypass) · Budget monitor (downgrade at 80%) · ENGINE auto-integration (zero config)
 
@@ -218,10 +218,10 @@ Circuit breaker (3 failures → bypass) · Budget monitor (downgrade at 80%) · 
 ```sh
 ```
 
-CODE + ENGINE, one machine, one installer, fully wired. CODE routes all AI inference through ENGINE's local LiteLLM gateway. Zero cloud calls for development. Offline capable after install.
+CODE + ENGINE, one machine, one installer, fully wired. CODE routes all AI inference through ENGINE's local the AI gateway gateway. Zero cloud calls for development. Offline capable after install.
 
 ```
-venzari-code CLI → LiteLLM :4001 → Ollama :11434 → (your local models)
+venzari-code CLI →  → local inference  → (your local models)
                        ↑
                ENGINE provides this
 ```

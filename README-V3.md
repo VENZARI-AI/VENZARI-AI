@@ -41,55 +41,6 @@ VENZARI
 
 ## 00 — THE PROBLEM
 
-```yaml
-status: critical
-scope: every team that depends on AI for real work
-```
-
-**You have been renting your two most important tools.** Your engineering OS and your intelligence layer. The bills are predictable until they aren't. The privacy policy is a document you did not write. The session ends and the context is gone. The data lives on someone else's disk, under someone else's retention policy, behind someone else's support SLA.
-
-```yaml
-what_you_actually_need:
-  - ownership_of_the_binary
-  - ownership_of_the_data
-  - ownership_of_the_future
-  - an_agent_that_remembers
-  - governance_that_actually_governs
-  - a_setup_that_does_not_require_a_platform_team
-```
-
-```yaml
-what_you_currently_have:
-  per_token_billing: true
-  data_leaves_your_hardware: true
-  forgets_between_sessions: true
-  one_channel_one_tool: true
-  vendor_controls_the_model: true
-  setup_measured_in_weeks: true
-```
-
-> Everyone else sells you a piece. VENZARI sells you the whole exit.
-
----
-
-## 01 — THE STACK
-
-```mermaid
-graph TD
-    U[You / Your Team] --> A[VENZARI AI AGENT]
-    U --> C[VENZARI CODE]
-    U --> E[VENZARI ENGINE]
-    A -->|MCP 12 tools| C
-    A -->|native| E
-    C -->|routes inference| E
-    E --> L[LiteLLM :4001]
-    E --> O[Ollama :11434]
-    E --> D[Dashboard :3000]
-    E --> S[(Memory - persistent)]
-    T[VENZARI INSTALLER] -.installs.-> E
-    T -.installs.-> C
-    T -.installs.-> A
-```
 
 | Layer | Product | Responsibility | Public Entry Point |
 |-------|---------|----------------|--------------------|
@@ -106,15 +57,6 @@ graph TD
 
 **Category:** Not an AI coding assistant. An operating system for AI-assisted development — the substrate that decides *when* an AI may act, *how far*, and *with what proof*.
 
-```yaml
-product: VENZARI CODE
-version: 1.0.0
-distribution: LIVE
-install: curl -FsSL install.venzari.xyz (customers only) | bash
-tests: 1508 passing / 0 failing  (74 test files)
-pre_install_checker: 6 checks (CODE-A)
-modes: 13 enforced
-```
 
 ### 02.1 Mode Lifecycle
 
@@ -154,33 +96,6 @@ Advisor | Handoff | Audit | Benchmark | Migration | Release
 
 ### 02.3 Governance Guarantees
 
-```yaml
-evidence_required_on: [Validate, Review, Commit, Release]
-tool_guards: enforced_per_mode
-loop_detection: 3_strike_escalation
-completion_rule: task CANNOT be marked complete without closing skill
-drift_detection: python3 cto/ops/agent/drift_scanner.py "<task-keyword>"
-```
-
-> Unlike every AI coding assistant on the market, VENZARI CODE cannot be convinced that the work is done. It runs the closing skill, shows the evidence, and only then closes the task.
-
-**[→ venzari.co/code](https://venzari.co/code)**
-
----
-
-## 03 — VENZARI ENGINE / Private AI Infrastructure
-
-**Category:** Not a cloud AI API. A complete private AI system running on your own hardware, at flat cost, with a privacy guarantee that is architectural rather than contractual.
-
-```yaml
-product: VENZARI ENGINE
-version: 1.0.0
-status: ALL 33 PHASES COMPLETE
-launched: 2026-09-05
-tests: 2301 automated
-offline_after_install: true
-per_token_billing: false
-```
 
 ### 03.1 Capability Matrix
 
@@ -194,77 +109,6 @@ per_token_billing: false
 | 6 | Semantic memory search | LIVE | Natural-language query across everything ever learned |
 | 7 | Custom fine-tuning pipeline | GROWTH+ | Train on your own conversations; model runs locally |
 
-```yaml
-scope_boundary:
-  engine_is_for: [business_operations, http, email, sql, crm, calendar]
-  engine_is_not_for: [code_repository_editing]   # that is CODE's job
-```
-
-### 03.2 Privacy Model
-
-```yaml
-data_location: your_hardware
-data_transit: none_required
-vendor_access_path: structurally_impossible
-guarantee_type: architectural      # not contractual, not policy-based
-guarantee_survives: [policy_change, acquisition, legal_request, vendor_shutdown]
-offline_operation: full_functionality
-```
-
-> "We don't just say your data is private. Your data physically cannot leave your hardware."
-
-| Scenario | Cloud AI | VENZARI ENGINE |
-|----------|----------|-----------------|
-| Vendor changes privacy policy | Your data now covered by new terms | Unaffected — no data there |
-| Vendor acquired | New owner gains your data | Unaffected — no data there |
-| Legal request to vendor | Data may be disclosed | Nothing to disclose |
-| Vendor shuts down | Service ends, data at risk | System keeps running |
-| Cost spike at scale | Per-token, unbounded | Flat monthly |
-
-### 03.3 Installer Pipeline
-
-```yaml
-stage_1_preflight:
-  checks: 11
-  parallel: true
-  enforces:
-    ram:    {warn_below: 8GB, fail_below: 8GB}
-    disk:   {warn_below: 60GB, fail_below: 60GB}
-    ports:  [4001, 11434, 5432, 6379]
-    docker: {installed: true, running: true}
-    network: installer.venzari.xyz reachable
-    sudo: true
-    existing_install: detect
-  on_failure: abort_with_exact_fix_instructions
-
-stage_2_wizard:
-  questions: 7
-  fields:
-    - server_identity   # domain or IP, company name, admin email
-    - license_key       # validated at this step
-    - ai_provider_mode  # local_only | local_with_cloud_fallback | cloud_only
-    - hardware_adaptive_model_recommendations
-    - optional_addons   # Growth+ only
-    - final_confirmation
-
-stage_3_worker_plan:
-  steps: 17
-  source: installer.venzari.xyz (VENZARI Installer Worker)
-  personalization: [hardware_tier, license_tier]
-  steps_include:
-    - pre-install verification
-    - binary download
-    - AI model pulls (fast + reasoning + embedding)
-    - docker-compose write + service startup
-    - per-service health checks
-    - gateway configuration (probes all configured providers)
-    - SSL + nginx configuration
-    - ecosystem wiring (detects co-installed CODE / AI AGENT)
-    - MCP registration
-    - anonymous install count ping
-  retry_logic: per_step
-  resumable: venzari-engine install --repair
-```
 
 ### 03.4 Hardware Requirements
 
@@ -286,119 +130,6 @@ stage_3_worker_plan:
 | Enterprise | $2,499/mo | + white-label, SLA, enterprise support |
 | Founder-Guided Setup | $2,499 one-time | Done-with-you install + configuration |
 
-```yaml
-licensing:
-  key_gates: real_binary_download
-  offline_grace: 24h
-  phone_home_required: false
-  works_if_venzari_ceases_to_exist: true
-```
-
-**[→ venzari.co/engine](https://venzari.co/engine)**
-
----
-
-## 04 — VENZARI AI AGENT / Persistent Autonomous Agent
-
-**Category:** Not a chatbot. A persistent autonomous entity with permanent memory, cross-channel presence, self-improving capability, and an 8-provider model router.
-
-```yaml
-product: VENZARI AI AGENT
-version: 1.1.0
-tests: 422 passing / 0 failing
-channels_live: 6
-skills: 2212   # 11 S-tier + 522 A-tier + 1679 B-tier
-model_providers: 8
-```
-
-### 04.1 Channels
-
-| Channel | Status | Notes |
-|---------|--------|-------|
-| Telegram | LIVE | Full bot integration, persistent session |
-| Slack | LIVE | Workspace app, DM + channel |
-| Discord | LIVE | Bot + server integration |
-| Email | LIVE | Mailgun / Acelle transport |
-| Web chat widget | LIVE | Embeddable on any site |
-| Webhook | LIVE | Programmatic entry point |
-
-> One instance, one identity, one memory — across every channel simultaneously. Start on Telegram, finish on Slack, continue by email. Context follows.
-
-### 04.2 Memory Retrieval — Three Signals
-
-| Signal | Method | Latency | Returns |
-|--------|--------|---------|---------|
-| Vector embeddings | Semantic similarity | ~50 ms | Meaning-matched past conversations |
-| BM25 full-text | Lexical exact match | ~10 ms | Code snippets, exact phrases, error strings |
-| PageRank graph | Importance ranking | ~5 ms | Key facts, highly-referenced memories |
-
-### 04.3 Skill Tiers
-
-| Tier | Count | Guarantee |
-|------|-------|-----------|
-| S-tier | 11 | Highest quality, flagship capabilities, hand-verified |
-| A-tier | 522 | High quality, broad coverage, tested |
-| B-tier | 1,679 | Community catalog, wide reach |
-| **Total** | **2,212** | Invoked automatically by intent — no manual selection |
-
-### 04.4 Model Router
-
-| Provider | Latency Class | Cost | Role |
-|----------|---------------|------|------|
-| Local Ollama | fast | free | Primary — prompts ≤1,200 tokens, zero config, private |
-| Groq | fast | free tier | Fallback 1 |
-| Gemini | medium | free tier available | Fallback 2 |
-| OpenRouter | medium | varies | Model diversity |
-| Cerebras | ultra-fast | varies | Speed-critical prompts |
-| Anthropic | medium | paid | Claude requirements |
-| OpenAI | medium | paid | GPT-4 / Turbo requirements |
-| Bedrock | slow | enterprise | AWS-native deployments |
-
-```yaml
-circuit_breaker: 3_failures_then_bypass
-recovery: automatic_after_cooldown
-budget_monitor: auto_downgrade_tier_at_80_percent
-```
-
-### 04.5 Interfaces
-
-| Interface | Detail |
-|-----------|--------|
-| CLI | `venzari-agent` — 15+ commands |
-| Desktop app | Tauri v2, 5 tabs, system tray |
-| MCP server | 12 tools — plug into any MCP-capable editor |
-| Ecosystem | Auto-wires to ENGINE + CODE when detected |
-
-### 04.6 Pricing
-
-| Tier | Price | Includes |
-|------|-------|----------|
-| Starter | $29/mo | Full agent, all 2,212 skills, 5 channels, unlimited memory |
-| Professional | $99/mo | + multi-agent, all 6 channels, dashboard, team sharing |
-| Enterprise | $499/mo | + managed fleet, custom skills, SLA, dedicated instance, API |
-
-```yaml
-free_tier: none
-subscription_required: true
-```
-
-**[→ venzari.co/products/venzari-ai-agent](https://venzari.co/products/venzari-ai-agent)**
-
----
-
-## 05 — VENZARI TOGETHER / The Complete Stack
-
-**Category:** Not three vendors. One stack, one command, one license, one owner.
-
-```yaml
-product: VENZARI TOGETHER
-version: 1.0.0
-install: curl -FsSL install.venzari.xyz (customers only) | bash
-components: [CODE, ENGINE, AI AGENT]
-installer_plan: v2, 22 steps, hardware-aware
-mcp_tools: 6
-license: single
-```
 
 ### 05.1 Local Architecture
 
@@ -406,29 +137,13 @@ license: single
 Your Machine
   ├── venzari-code CLI ─────────────► routes inference to
   │                                     ▼
-  ├── LiteLLM :4001  ◄───────────────── ENGINE gateway
+  ├──   ◄───────────────── ENGINE gateway
   │       ▼
-  ├── Ollama :11434 ◄── local models (qwen, llama, …)
-  ├── ENGINE Dashboard :3000
+  ├── local inference  ◄── local models (qwen, llama, …)
+  ├── ENGINE Dashboard 
   └── ~/.venzari-together/  ◄── shared config
 ```
 
-```yaml
-cloud_inference_when_together_active: false
-code_never_contacts: ai.venzari.xyz
-```
-
-### 05.2 Installer Plan (22 steps, hardware-aware)
-
-```yaml
-detects: [ram, gpu, os, disk, arch]
-plan_generation: installer.venzari.xyz/v2/plan
-executes:
-  - ENGINE: docker → ollama → models → litellm gateway on :4001
-  - CODE:   cli binary → companion repo → router wired to :4001
-  - writes: ~/.venzari-together/HANDOFF.md
-install_summary: printed_on_completion
-```
 
 ### 05.3 Requirements
 
@@ -441,11 +156,6 @@ install_summary: printed_on_completion
 
 ### 05.4 Post-Install Commands
 
-```bash
-venzari-together doctor    # check every service
-venzari-together status    # combined status + model list
-venzari-code "refactor this"   # CODE routed through local ENGINE
-```
 
 **[→ venzari.co/together](https://venzari.co/together)**
 
@@ -475,36 +185,11 @@ venzari-code "refactor this"   # CODE routed through local ENGINE
 
 > The most incredible thing is the way our VENZARI INSTALLER handles all the hard setup and config — like you have hired your own VENZARI CTO to get it done and working all on its own, stiff like that it should be written in the style of the ad creator \GARY BRIGGS.
 
-```yaml
-installer:
-  preflight_checks: 11
-  wizard_questions: 7
-  worker_plan_steps: 17
-  automated_tests: 2301
-  retry_logic: per_step
-  repair_mode: venzari-engine install --repair
-  resumable: true
-  offline_after_install: true
-  ecosystem_awareness: [CODE, AI AGENT]
-```
-
-```mermaid
-flowchart LR
-    A[Hardware Profile] --> B[Installer Worker]
-    B --> C[17-Step Plan]
-    C --> D[Pre-flight 11 Checks]
-    D --> E[Wizard 7 Questions]
-    E --> F[License Validate]
-    F --> G[Local Execution]
-    G --> H[Health Checks]
-    H --> I[Ecosystem Wiring]
-    I --> J[Operational]
-```
 
 | Without an installer | With the VENZARI INSTALLER |
 |----------------------|-----------------------------|
 | Hire a platform team | 7 questions, one command |
-| Weeks of Docker debugging | 11 checks before you start |
+| Weeks of the container runtime debugging | 11 checks before you start |
 | Model selection guesswork | Hardware-adaptive recommendations |
 | Break it, start over | `--repair` resumes at failure |
 | Manual ecosystem wiring | CODE + AGENT auto-detected and wired |
@@ -574,15 +259,6 @@ flowchart LR
 | All three, integrated | **TOGETHER** | One command, one license, one owner |
 | Custom deployment + SLA | **ENTERPRISE** | Dedicated infra, direct team access |
 
-```yaml
-starting_point:
-  - code:     venzari.co/code
-  - engine:   venzari.co/engine
-  - agent:    venzari.co/products/venzari-ai-agent
-  - together: venzari.co/together
-  - enterprise: venzari.co/enterprise
-  - pricing:  venzari.co/pricing
-```
 
 ---
 
@@ -610,30 +286,6 @@ starting_point:
 
 ## 11 — INSTALL COMMANDS (COPY/PASTE)
 
-```bash
-# CODE — Engineering OS
-curl -FsSL install.venzari.xyz (customers only) | bash
-
-# ENGINE — Private AI Infrastructure
-curl -FsSL install.venzari.xyz (customers only) | bash
-
-# AI AGENT — Persistent Autonomous Agent
-curl -FsSL install.venzari.xyz (customers only) | bash
-
-# TOGETHER — Complete Stack (engine + code + agent)
-curl -FsSL install.venzari.xyz (customers only) | bash
-```
-
-```bash
-# Post-install health checks
-venzari-engine doctor
-venzari-agent status
-venzari-together doctor
-
-# Repair / resume from any failed step
-venzari-engine install --repair
-venzari-together install --repair
-```
 
 ---
 
@@ -704,20 +356,6 @@ Every section of this README follows the rules from "Content Is King" by Gary Br
 
 ## Quick Reference — One-Line Commands
 
-```bash
-# CODE install
-curl -FsSL install.venzari.xyz (customers only) | bash
-# ENGINE install
-curl -FsSL install.venzari.xyz (customers only) | bash
-# AI AGENT install
-curl -FsSL install.venzari.xyz (customers only) | bash
-# TOGETHER (full stack)
-curl -FsSL install.venzari.xyz (customers only) | bash
-# Repair any install
-venzari-engine install --repair
-# Health check all
-venzari-engine doctor && venzari-together doctor
-```
 
 > All commands verified against live installation targets. All URLs return live deploy packages.
 

@@ -40,7 +40,7 @@
 - 🧠 **Remembers everything, forever** — three-signal retrieval: vector embeddings (50ms semantic), BM25 full-text (10ms exact), PageRank graph (5ms importance). Nothing is ever forgotten unless you ask it to be.
 - ⚡ **2,212 curated skills** — 11 S-tier flagship · 522 A-tier high-quality · 1,679 B-tier community. Invoked automatically. No manual selection.
 - 🔄 **Nightly learning loop** — at 3am, the agent identifies repeated patterns and creates new skills, improves existing ones, updates your context model, and compresses old interactions. You wake up to a smarter agent.
-- 🔀 **8-provider model router** — Local Ollama → Groq → Gemini → OpenRouter → Cerebras → Anthropic → OpenAI → Bedrock. Circuit breaker on failure. Budget monitor auto-downgrades at 80%.
+- 🔀 **8-provider model router** — Local local inference → Groq → Gemini → OpenRouter → Cerebras → Anthropic → OpenAI → Bedrock. Circuit breaker on failure. Budget monitor auto-downgrades at 80%.
 - 💻 **CLI binary** — `venzari-agent` with 15+ commands: start, stop, doctor, skills, memory, channels, upgrade
 - 🖥️ **Native desktop app** — Tauri v2, 5 tabs (Chat/Skills/Memory/Channels/Settings), system tray, full VENZARI branding
 - 📊 **9-page web dashboard** at agent.venzari.co — AI Router page shows current provider, model tier, cost today, and ENGINE probe status
@@ -78,15 +78,15 @@
 VENZARI ENGINE's installer is what makes private AI infrastructure accessible. No AI engineering team required. An office manager with SSH can do it.
 
 **Stage 1 — 11 automatic pre-install checks:**
-RAM · Disk · Ports 4001/11434/5432/6379 · Docker installed + running · Internet connectivity · Sudo access · Existing install detection
+RAM · Disk · Ports 4001/11434/5432/6379 · the container runtime installed + running · Internet connectivity · Sudo access · Existing install detection
 
 **Stage 2 — 7-question wizard:**
 Server identity · License key · AI provider preference · Model selection (hardware-adaptive) · Add-ons · Confirmation
 
 **Stage 3 — 17-step hardware-customized plan:**
-Your hardware profile goes to `installer.venzari.xyz`. The Worker returns a 17-step plan for your specific machine tier. Each step has retry logic. The install is resumable at any point.
+Your hardware profile goes to `the VENZARI installer service`. The Worker returns a 17-step plan for your specific machine tier. Each step has retry logic. The install is resumable at any point.
 
-**2,301 automated tests.** Resumable: `venzari-engine install --repair`. Offline after install.
+**2,301 automated tests.** Resumable: `the resume-repair command`. Offline after install.
 
 > [!IMPORTANT]
 > **Hardware requirements:** 8 GB RAM minimum (16 GB recommended) · 60 GB SSD minimum · Ubuntu 22.04 LTS · GPU optional (5-15× faster inference with NVIDIA ≥8 GB VRAM)
@@ -135,16 +135,16 @@ Your hardware profile goes to `installer.venzari.xyz`. The Worker returns a 17-s
 ```sh
 ```
 
-One installer. Both products. CODE routes all AI inference through ENGINE's local LiteLLM gateway. **Zero cloud calls for development.** Offline after install.
+One installer. Both products. CODE routes all AI inference through ENGINE's local the AI gateway gateway. **Zero cloud calls for development.** Offline after install.
 
 ```
 Your Machine
   ├── venzari-code CLI
   │        ↓ routes inference to
-  ├── LiteLLM :4001  ←  ENGINE gateway
+  ├──   ←  ENGINE gateway
   │        ↓ serves local models from
-  ├── Ollama :11434
-  ├── ENGINE Dashboard :3000
+  ├── local inference 
+  ├── ENGINE Dashboard 
   └── ~/.venzari-together/
 ```
 

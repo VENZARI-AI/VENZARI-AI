@@ -189,7 +189,7 @@ The VENZARI INSTALLER handles:
 <details>
 <summary>Stage 1 — Pre-install checks (automatic, before any wizard questions)</summary>
 
-11 parallel checks enforce: RAM (≥8 GB warn, <8 GB fail), disk (≥60 GB warn, <60 GB fail), ports 4001/11434/5432/6379 free, Docker installed + running, internet connectivity to installer.venzari.xyz, sudo access, existing install detection. Any failure stops the process and tells you exactly what to fix.
+11 parallel checks enforce: RAM (≥8 GB warn, <8 GB fail), disk (≥60 GB warn, <60 GB fail), ports 4001/11434/5432/6379 free, the container runtime installed + running, internet connectivity to the VENZARI installer service, sudo access, existing install detection. Any failure stops the process and tells you exactly what to fix.
 
 </details>
 
@@ -203,12 +203,12 @@ Server identity (domain/IP, company name, admin email), license key validation, 
 <details>
 <summary>Stage 3 — Worker-driven install plan (17 steps executed locally)</summary>
 
-After the wizard, the installer sends your hardware profile to the VENZARI Installer Worker at `installer.venzari.xyz`. The Worker returns a 17-step plan customized for your hardware tier and license. Steps include:
+After the wizard, the installer sends your hardware profile to the VENZARI Installer Worker at `the VENZARI installer service`. The Worker returns a 17-step plan customized for your hardware tier and license. Steps include:
 
 - Pre-install verification
 - Binary download
 - AI model pulls (fast + reasoning + embedding)
-- docker-compose write and service startup
+- the service orchestrator write and service startup
 - Health checks for each service
 - Gateway configuration (probes all configured AI providers)
 - SSL and nginx configuration
@@ -216,7 +216,7 @@ After the wizard, the installer sends your hardware profile to the VENZARI Insta
 - MCP registration
 - Anonymous install count ping
 
-Each step has retry logic. The install is **resumable at any point** with `venzari-engine install --repair` — it skips completed steps and retries from the failure point.
+Each step has retry logic. The install is **resumable at any point** with `the resume-repair command` — it skips completed steps and retries from the failure point.
 
 > **2,301 automated tests** cover every step, every retry, every ecosystem wiring.
 
@@ -292,16 +292,6 @@ Total: **2,212 real skills** invoked automatically based on what you ask. No exp
 <details>
 <summary>Skill Usage Examples</summary>
 
-```bash
-# Browse all 2,212 skills
-venzari-agent skills list
-
-# Search by keyword
-venzari-agent skills search "email"
-
-# Run a skill directly from CLI
-venzari-agent skills run <id>
-```
 
 </details>
 
@@ -310,7 +300,7 @@ venzari-agent skills run <id>
 
 | Provider | Speed | Config | When Used |
 |----------|-------|--------|-----------|
-| **Local Ollama** | Free, private, zero-config | Fast prompts ≤1,200 tokens | Primary path — always tried first |
+| **Local local inference** | Free, private, zero-config | Fast prompts ≤1,200 tokens | Primary path — always tried first |
 | **Groq** | Fast inference | External provider, free API tier | Fallback when local fails or times out |
 | **Gemini** | External provider | Free API tier available | Secondary cloud fallback |
 | **OpenRouter** | Broad model access | Multiple model providers | When specific model needed |
@@ -349,10 +339,10 @@ venzari-agent skills run <id>
 Your Machine
   ├── venzari-code CLI → routes to
   │       ▼
-  ├── LiteLLM :4001 ← ENGINE gateway
+  ├──  ← ENGINE gateway
   │       ▼
-  ├── Ollama :11434 ← local models (qwen, llama, etc.)
-  ├── ENGINE Dashboard :3000
+  ├── local inference  ← local models (qwen, llama, etc.)
+  ├── ENGINE Dashboard 
   └── ~/.venzari-together/ ← Together config dir
 ```
 
@@ -369,11 +359,6 @@ Your Machine
 
 ### After Install
 
-```bash
-venzari-together doctor       # check all services
-venzari-together status       # combined status + model list
-venzari-code "refactor this"  # CODE routes through local ENGINE
-```
 
 **[vzari.co/together →](https://venzari.co/together)**
 
@@ -478,11 +463,11 @@ venzari-code "refactor this"  # CODE routes through local ENGINE
 <details>
 <summary>VENZARI INSTALLER — Three Stages</summary>
 
-**Stage 1 — Pre-install checks (automatic, before any wizard questions):** 11 parallel checks enforce RAM (≥8 GB warn, <8 GB fail), disk (≥60 GB warn, <60 GB fail), ports 4001/11434/5432/6379 free, Docker installed + running, internet connectivity to installer.venzari.xyz, sudo access, existing install detection. Any failure stops the process and tells you exactly what to fix.
+**Stage 1 — Pre-install checks (automatic, before any wizard questions):** 11 parallel checks enforce RAM (≥8 GB warn, <8 GB fail), disk (≥60 GB warn, <60 GB fail), ports 4001/11434/5432/6379 free, the container runtime installed + running, internet connectivity to the VENZARI installer service, sudo access, existing install detection. Any failure stops the process and tells you exactly what to fix.
 
 **Stage 2 — The setup wizard (7 questions):** Server identity (domain/IP, company name, admin email), license key validation, AI provider preference (local-only, local + cloud fallback with 13 supported providers, or cloud-only), hardware-adaptive model recommendations, optional add-ons (Growth+ only), and final confirmation.
 
-**Stage 3 — Worker-driven install plan (17 steps executed locally):** After the wizard, the installer sends your hardware profile to the VENZARI Installer Worker at `installer.venzari.xyz`. The Worker returns a 17-step plan customized for your hardware tier and license. Each step has retry logic. The install is **resumable at any point** with `venzari-engine install --repair` — it skips completed steps and retries from the failure point.
+**Stage 3 — Worker-driven install plan (17 steps executed locally):** After the wizard, the installer sends your hardware profile to the VENZARI Installer Worker at `the VENZARI installer service`. The Worker returns a 17-step plan customized for your hardware tier and license. Each step has retry logic. The install is **resumable at any point** with `the resume-repair command` — it skips completed steps and retries from the failure point.
 
 > **2,301 automated tests** cover every step, every retry, every ecosystem wiring.
 
@@ -574,18 +559,5 @@ venzari-code "refactor this"  # CODE routes through local ENGINE
 
 ## 📦 Quick Start Reference
 
-```bash
-# VENZARI CODE — Engineering OS (installs itself)
-curl -FsSL install.venzari.xyz (customers only) | bash
-
-# VENZARI ENGINE — Private AI (local inference, persistent memory)
-curl -FsSL install.venzari.xyz (customers only) | bash
-
-# VENZARI AI AGENT — Persistent autonomous agent (6 channels, 2212 skills)
-curl -FsSL install.venzari.xyz (customers only) | bash
-
-# VENZARI TOGETHER — All three, integrated, one license
-curl -FsSL install.venzari.xyz (customers only) | bash
-```
 
 > 1,508 CODE tests · 2,301 ENGINE automated steps · 422 AI AGENT pass · 13 governance modes · 8 model providers · 6 live channels · 2,212 skills · 2,301 installer tests

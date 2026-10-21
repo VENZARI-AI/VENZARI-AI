@@ -95,7 +95,7 @@ Structural privacy means your data physically cannot leave your hardware. Not be
 
 VENZARI ENGINE is structural privacy. A complete AI system — conversational AI with permanent memory, local voice synthesis and recognition, business workflow automation, a full web dashboard, REST API, and custom fine-tuning — all running on a VPS you own. The company you work for is not sharing its AI conversations with anyone. Not now. Not ever.
 
-**The installer is the product.** Not a script. A tested, resumable, hardware-aware system that takes 20 minutes and requires only SSH. 11 parallel pre-install checks. A 7-question wizard. A 17-step hardware-customized plan from `installer.venzari.xyz`. 2,301 automated tests. Retry logic on every step.
+**The installer is the product.** Not a script. A tested, resumable, hardware-aware system that takes 20 minutes and requires only SSH. 11 parallel pre-install checks. A 7-question wizard. A 17-step hardware-customized plan from `the VENZARI installer service`. 2,301 automated tests. Retry logic on every step.
 
 Companies with 3-6 months and an AI engineering team can build this themselves. VENZARI ENGINE is for the 50-person company that doesn't have that — and shouldn't have to.
 
@@ -135,12 +135,12 @@ And it learns. Every night at 3am, the agent reviews what you asked it to do rep
 
 CODE and ENGINE on the same machine. One installer. Both products wired together.
 
-Every AI inference call from VENZARI CODE routes through ENGINE's local LiteLLM gateway. No cloud calls for development. Offline after install. Your code, your AI, your hardware.
+Every AI inference call from VENZARI CODE routes through ENGINE's local the AI gateway gateway. No cloud calls for development. Offline after install. Your code, your AI, your hardware.
 
 22-step hardware-aware install plan. `venzari-together doctor` confirms everything is healthy.
 
 ```
-venzari-code → LiteLLM :4001 → Ollama :11434 → your local models
+venzari-code →  → local inference  → your local models
 ```
 
 ---

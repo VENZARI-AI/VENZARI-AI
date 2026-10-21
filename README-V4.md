@@ -141,7 +141,7 @@ You install it once. Then your data never leaves.
 
 > **You can disconnect from the internet after installation and the system keeps working.** No per-token billing. No cloud dependency. Fixed monthly price.
 
-**The installer does the impossible part.** 11 parallel pre-flight checks (RAM, disk, ports, Docker, connectivity, sudo, existing installs). A 7-question setup wizard. Then your hardware profile goes to the VENZARI Installer Worker, which returns a **17-step plan customized to your hardware and license tier** — model pulls, docker-compose, health checks, gateway config with every provider probed, SSL and nginx, ecosystem wiring, MCP registration. Every step has retry logic. If it breaks, `venzari-engine install --repair` resumes at the failure point instead of starting over.
+**The installer does the impossible part.** 11 parallel pre-flight checks (RAM, disk, ports, the container runtime, connectivity, sudo, existing installs). A 7-question setup wizard. Then your hardware profile goes to the VENZARI Installer Worker, which returns a **17-step plan customized to your hardware and license tier** — model pulls, the service orchestrator, health checks, gateway config with every provider probed, SSL and nginx, ecosystem wiring, MCP registration. Every step has retry logic. If it breaks, `the resume-repair command` resumes at the failure point instead of starting over.
 
 2,301 automated tests cover every step, every retry, every wiring path.
 
@@ -169,7 +169,7 @@ Start a conversation on Telegram on the train. Finish it on Slack at your desk. 
 
 **2,212 real skills**, tiered and tested: 11 S-tier flagship capabilities, 522 A-tier high-quality skills, 1,679 B-tier community skills. They fire automatically based on what you actually asked for. You never pick a skill from a menu.
 
-**8-provider model router** with a circuit breaker and a budget monitor: local Ollama first (free, private, zero-config), then Groq, Gemini, OpenRouter, Cerebras, Anthropic, OpenAI, Bedrock. Three failures → that provider is bypassed. Hit 80% of session budget → the model tier drops automatically. You choose. It routes.
+**8-provider model router** with a circuit breaker and a budget monitor: local local inference first (free, private, zero-config), then Groq, Gemini, OpenRouter, Cerebras, Anthropic, OpenAI, Bedrock. Three failures → that provider is bypassed. Hit 80% of session budget → the model tier drops automatically. You choose. It routes.
 
 **It isn't just a chat app.** There's a CLI (`venzari-agent`, 15+ commands), a desktop app (Tauri v2, 5 tabs, system tray), and an MCP server exposing 12 tools to any MCP-capable editor. And when it detects ENGINE and CODE on the same machine, it wires itself to them automatically.
 
@@ -183,19 +183,11 @@ Start a conversation on Telegram on the train. Finish it on Slack at your desk. 
 
 **CODE + ENGINE + AI AGENT, working as one system. One command. One license. One owner: you.**
 
-```bash
-curl -FsSL install.venzari.xyz (customers only) | bash
-```
 
-The installer detects your RAM, GPU, OS, disk, and architecture, then builds a 22-step hardware-aware plan: ENGINE (docker → ollama → models → LiteLLM gateway on :4001), CODE (CLI binary → companion repo → router wired to :4001), and a shared `~/.venzari-together/` config with a HANDOFF.md written for you.
+The installer detects your RAM, GPU, OS, disk, and architecture, then builds a 22-step hardware-aware plan: ENGINE (container runtime → local inference → models → the AI gateway gateway on ), CODE (CLI binary → companion repo → router wired to ), and a shared `~/.venzari-together/` config with a HANDOFF.md written for you.
 
 **When Together is active, CODE never contacts `ai.venzari.xyz`.** No cloud inference. No data egress. Your entire engineering workflow runs against models on your own machine.
 
-```bash
-venzari-together doctor    # check every service
-venzari-together status    # combined status + model list
-venzari-code "refactor this"   # routed through local ENGINE
-```
 
 **[→ venzari.co/together](https://venzari.co/together)**
 
@@ -219,7 +211,7 @@ VENZARI ENTERPRISE is $5,988/year, live in under 5 minutes, with 6 channels, an 
 
 Think about what it actually takes to stand up a private AI stack today.
 
-You provision a VPS. You install Docker. You get LiteLLM wired to a gateway. You pull and tune Ollama models. You configure nginx and TLS. You write a docker-compose that doesn't fight itself. You set up Postgres and Redis with credentials that aren't in a repo. You register MCP servers. You configure a router so CODE's traffic goes to your local models and not to a hosted API. You write a systemd unit so it survives reboots. You test that the whole thing comes back after a power cut.
+You provision a VPS. You install the container runtime. You get the AI gateway wired to a gateway. You pull and tune local inference models. You configure nginx and TLS. You write a the service orchestrator that doesn't fight itself. You set up Postgres and Redis with credentials that aren't in a repo. You register MCP servers. You configure a router so CODE's traffic goes to your local models and not to a hosted API. You write a systemd unit so it survives reboots. You test that the whole thing comes back after a power cut.
 
 That's what a platform team does. For weeks. For money.
 
@@ -231,9 +223,6 @@ Every step has retry logic. Every step has a health check after it. Every servic
 
 And if something breaks three weeks in, you don't start over:
 
-```bash
-venzari-engine install --repair
-```
 
 **2,301 automated tests** cover every step, every retry, every ecosystem path.
 
@@ -279,19 +268,6 @@ venzari-engine install --repair
 
 ## Start In One Command
 
-```bash
-# VENZARI CODE — Engineering OS
-curl -FsSL install.venzari.xyz (customers only) | bash
-
-# VENZARI ENGINE — Private AI Infrastructure
-curl -FsSL install.venzari.xyz (customers only) | bash
-
-# VENZARI AI AGENT — Persistent Autonomous Agent
-curl -FsSL install.venzari.xyz (customers only) | bash
-
-# VENZARI TOGETHER — The Complete Stack
-curl -FsSL install.venzari.xyz (customers only) | bash
-```
 
 <div align="center">
 
@@ -371,7 +347,7 @@ Architecturally, no. Not "we promise not to" — there is no code path that send
 That's the point of the router. 13 supported providers, local models always tried first, cloud fallbacks only if you configure them. Swap the model, keep the memory. Your conversations and your context stay in your database regardless of which model is answering.
 
 **"Is this just a wrapper around an API?"**
-No. ENGINE runs local models through Ollama and LiteLLM. Together routes CODE's inference to that local gateway and never contacts `ai.venzari.xyz`. The AI AGENT tries local Ollama first and only reaches for a cloud provider when you've explicitly configured one as a fallback. The default configuration sends nothing anywhere.
+No. ENGINE runs local models through local inference and the AI gateway. Together routes CODE's inference to that local gateway and never contacts `ai.venzari.xyz`. The AI AGENT tries local local inference first and only reaches for a cloud provider when you've explicitly configured one as a fallback. The default configuration sends nothing anywhere.
 
 **"Will my team actually use it, or is it another tool nobody opens?"**
 The AI AGENT is the one people open — because it meets them where they already are. Telegram, Slack, Discord, email, a widget on your site, a webhook. Nobody has to learn a new tool; they talk to the agent in the channel they already live in, and it's the same agent with the same memory in every one of them.
@@ -449,9 +425,6 @@ The aesthetic follows the VENZARI brand system — **Unbounded** for headings, *
 
 ## One Command. That's The Whole Pitch.
 
-```bash
-curl -FsSL install.venzari.xyz (customers only) | bash
-```
 
 Every feature described in this document — 13 governance modes, 2,212 skills, 8 model providers, 6 live channels, structural privacy, permanent memory, 2,301 automated steps — installs from that single line. The installer does the rest.
 
