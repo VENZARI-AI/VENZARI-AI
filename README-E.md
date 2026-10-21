@@ -18,9 +18,10 @@
 
   <p>
     <a href="https://venzari.co"><img src="https://img.shields.io/badge/Website-venzari.co-3251FC?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOCAwQzMuNTggMCAwIDMuNTggMCA4czMuNTggOCA4IDggOC0zLjU4IDgtOC0zLjU4LTgtOC04em0wIDE0Yy0zLjMxIDAtNi0yLjY5LTYtNnMyLjY5LTYgNi02IDYgMi42OSA2IDYtMi42OSA2LTYgNnoiIGZpbGw9IiNGREZCRjkiLz48L3N2Zz4=" alt="Website"/></a>
-    <a href="https://docs.venzari.co"><img src="https://img.shields.io/badge/Docs-Documentation-A259FF?style=for-the-badge" alt="Documentation"/></a>
+    <a href="https://docs.venzari.co"><img src="https://img.shields.io/badge/Docs-Documentation-A259FF?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Documentation"/></a>
     <a href="https://venzari.co/pricing"><img src="https://img.shields.io/badge/Pricing-See%20Plans-C1FF00?style=for-the-badge&logoColor=000" alt="Pricing"/></a>
     <a href="https://discord.gg/venzari"><img src="https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/></a>
+    <a href="https://venzari.co/jobs"><img src="https://img.shields.io/badge/Careers-We're%20Hiring-FF38D4?style=for-the-badge" alt="Careers"/></a>
   </p>
 
   <p>
@@ -31,6 +32,14 @@
   <p>
     <a href="https://venzari.co/together"><img src="https://img.shields.io/badge/VENZARI%20TOGETHER-One%20Stack%2C%20Zero%20Cloud-3251FC?style=for-the-badge" alt="TOGETHER"/></a>
     <a href="https://venzari.co/enterprise"><img src="https://img.shields.io/badge/ENTERPRISE-White%20Label%20%2B%20SLA-FF38D4?style=for-the-badge" alt="ENTERPRISE"/></a>
+  </p>
+
+  <p>
+    <img src="https://img.shields.io/badge/Tests-1%2C508%20Passing-00D26A?style=flat-square&logo=pytest" alt="CODE Tests"/>
+    <img src="https://img.shields.io/badge/Installer%20Tests-2%2C301-00D26A?style=flat-square" alt="ENGINE Tests"/>
+    <img src="https://img.shields.io/badge/Agent%20Tests-422%20Passing-00D26A?style=flat-square" alt="AGENT Tests"/>
+    <img src="https://img.shields.io/badge/Status-Production%20Ready-00D26A?style=flat-square" alt="Status"/>
+    <img src="https://img.shields.io/badge/License-Proprietary-3251FC?style=flat-square" alt="License"/>
   </p>
 </div>
 
@@ -47,19 +56,24 @@
   - [The Companion System](#the-companion-system)
   - [Five Governance Components](#five-governance-components)
   - [What Ships With Every Install](#what-ships-with-every-install)
+  - [Who Uses CODE](#who-uses-code)
 - [🛡️ VENZARI ENGINE — Private AI Infrastructure](#️-venzari-engine--private-ai-infrastructure)
   - [7 Features — All on Your Hardware](#7-features--all-on-your-hardware)
   - [The 3-Stage Installer](#the-3-stage-installer)
   - [Hardware Requirements](#hardware-requirements)
+  - [Pricing Tiers](#pricing-tiers)
+  - [Who Uses ENGINE](#who-uses-engine)
 - [🤖 VENZARI AI AGENT — Persistent Autonomous Agent](#-venzari-ai-agent--persistent-autonomous-agent)
   - [6 Channels, One Memory](#6-channels-one-memory)
   - [3-Signal Memory](#3-signal-memory)
   - [2,212 Skills](#2212-skills)
   - [The Nightly Learning Loop](#the-nightly-learning-loop)
   - [8-Provider Model Router](#8-provider-model-router)
+  - [Pricing Tiers](#pricing-tiers-1)
+  - [Who Uses AI AGENT](#who-uses-ai-agent)
 - [🔗 VENZARI Together](#-venzari-together)
 - [🏢 VENZARI Enterprise](#-venzari-enterprise)
-- [Comparison — Their Way vs VENZARI](#comparison--their-way-vs-venzari)
+- [Category Design Comparison](#category-design-comparison)
 - [Get Started](#get-started)
 
 </details>
@@ -96,7 +110,7 @@ VENZARI CODE is the **operating system** that sits above AI models. It doesn't r
 ### The 13-Mode Lifecycle
 
 <table>
-<tr><td valign="top">
+<tr><td valign="top" width="50%">
 
 **Primary workflow:**
 
@@ -110,7 +124,7 @@ VENZARI CODE is the **operating system** that sits above AI models. It doesn't r
 | 🔧 **Repair** | Fix the specific failure only. Scope locked. | Fix diff |
 | 📝 **Commit** | Git operations only. Evidence attached. | Commit + evidence chain |
 
-</td><td valign="top">
+</td><td valign="top" width="50%">
 
 **Secondary modes:**
 
@@ -118,7 +132,7 @@ VENZARI CODE is the **operating system** that sits above AI models. It doesn't r
 |------|---------|
 | 🎯 **Advisor** | Analysis only, zero writes |
 | 📤 **Handoff** | Structured session summary |
-| 🔍 **Audit** | Review session evidence |
+| 🔍 **Audit** | Review evidence records |
 | 📈 **Benchmark** | Performance regression tracking |
 | 🔄 **Migration** | Full write + execute for large-scale changes |
 | 🚀 **Release** | Full access including deploy |
@@ -212,6 +226,16 @@ These are structural, not behavioral. They enforce constraints at the system lev
   <strong style="color:#A259FF;">📦 Licensing Model:</strong> Per-developer seat. Includes desktop app, JetBrains plugin, MCP tools, customer dashboard, and all future updates. No usage caps. No per-commit billing.
 </blockquote>
 
+### Who Uses CODE
+
+| User Type | Why They Use CODE |
+|-----------|-------------------|
+| **Solo developers** | Governance without a team — CODE enforces workflow even when working alone |
+| **Small teams (2–10)** | Consistent standards across developers without heavy process |
+| **Agencies** | Client work requires audit trails — CODE provides evidence per commit |
+| **Enterprises** | Regulatory compliance requires proof of validation before production |
+| **Open source maintainers** | Manage AI contributions with evidence — know what the AI actually did |
+
 **[→ venzari.co/code](https://venzari.co/code)** · **[→ docs.venzari.co/code](https://docs.venzari.co/code)**
 
 ---
@@ -264,10 +288,6 @@ Train models on your proprietary data. Run them locally. Never send training dat
   <strong style="color:#C1FF00;">⚡ Current Status:</strong> ALL 33 PHASES COMPLETE — v1.0.0 launched 2026-09-05
 </blockquote>
 
-<blockquote style="border-left:4px solid #5EE7FF;padding-left:1rem;margin:1.5rem 0;color:rgba(253,251,249,.85);">
-  <strong style="color:#5EE7FF;">💰 Pricing Tiers:</strong> Foundation $349/mo | Growth $899/mo | Enterprise $2,499/mo | Founder-Guided Setup $2,499 one-time
-</blockquote>
-
 ### The 3-Stage Installer
 
 **Why the installer matters:** Most "self-hosted AI" fails at installation. Ambiguous instructions. Missing dependencies. Partial states. Mystery errors. VENZARI ENGINE's installer is the product — 2,301 automated tests back every step.
@@ -286,7 +306,7 @@ These checks run in parallel before the wizard asks a single question. Any failu
 | 3 | CPU cores | < 4 detected | "4 cores minimum. Detected: 2 cores. Provision a larger VPS." |
 | 4 | OS compatibility | Not Ubuntu 22.04 or 24.04 | "Ubuntu 22.04 LTS or 24.04 LTS required. Detected: Debian 11." |
 | 5 | Container runtime | Not installed or not running | "Container runtime required. Install and start, then retry." |
-| 6 | Port availability | Required ports already bound | "Ports required: 80, 443, 3000, 5432, 6379. Port 80 already in use by nginx." |
+| 6 | Port availability | Required ports already bound | "Ports required: 80, 443, 3000, 5432, 6379. Port 80 already in use." |
 | 7 | Internet connectivity | Cannot reach required endpoints | "Internet required for installation. Check firewall and DNS." |
 | 8 | Admin access | Cannot run privileged commands | "Installation requires sudo access. Run with sudo or as root." |
 | 9 | Existing VENZARI install | Detected at standard paths | "Existing installation detected. Use upgrade command or remove first." |
@@ -330,7 +350,7 @@ Steps include:
 3. **AI model pulls** — fast models (for chat), reasoning models (for complex tasks), embedding models (for memory search)
 4. **Service orchestration startup**
 5. **Health checks** for each service (API, inference, memory, dashboard, voice if enabled)
-6. **Gateway configuration** — probes all configured AI providers (local, Groq, Gemini, OpenRouter, Anthropic, OpenAI, Bedrock)
+6. **Gateway configuration** — probes all configured AI providers
 7. **SSL setup** — Let's Encrypt auto-renewal or manual cert installation
 8. **Ecosystem wiring** — detects co-installed CODE or AI AGENT, configures auto-routing
 9. **MCP registration** — registers ENGINE's MCP tools with detected AI editors
@@ -356,9 +376,63 @@ Each step has retry logic. The install is **resumable at any point** — if step
 
 > **You close your internet connection after installation and the system continues to function.** No per-token billing. No cloud dependency. Fixed monthly pricing.
 
+### Pricing Tiers
+
+<table>
+<tr>
+<th>Tier</th>
+<th>Monthly</th>
+<th>What's Included</th>
+</tr>
+<tr>
+<td><strong>Foundation</strong></td>
+<td>$349</td>
+<td>
+  • 7 features<br/>
+  • 1 admin user<br/>
+  • Email support<br/>
+  • Community access
+</td>
+</tr>
+<tr>
+<td><strong>Growth</strong></td>
+<td>$899</td>
+<td>
+  • Everything in Foundation<br/>
+  • Custom fine-tuning (LoRA)<br/>
+  • 5 admin users<br/>
+  • Priority support<br/>
+  • Advanced workflows
+</td>
+</tr>
+<tr>
+<td><strong>Enterprise</strong></td>
+<td>$2,499</td>
+<td>
+  • Everything in Growth<br/>
+  • Dedicated infrastructure<br/>
+  • Full SLA (99.9% uptime)<br/>
+  • Direct team access (Slack)<br/>
+  • White-label option<br/>
+  • Unlimited admin users
+</td>
+</tr>
+</table>
+
 <blockquote style="border-left:4px solid #FDFBF9;padding-left:1rem;margin:1.5rem 0;color:rgba(253,251,249,.85);">
   <strong style="color:#FDFBF9;">🛡️ Licensing:</strong> License key gates the real binary download. All valuable commands require a valid license. 24-hour offline grace period. No phone-home required after activation — the system works even if VENZARI ceases to exist.
 </blockquote>
+
+### Who Uses ENGINE
+
+| User Type | Why They Use ENGINE |
+|-----------|---------------------|
+| **Healthcare providers** | HIPAA compliance requires data never leaves their infrastructure |
+| **Legal firms** | Attorney-client privilege — cannot risk cloud AI seeing case details |
+| **Financial services** | Regulatory requirements forbid sending transaction data to third parties |
+| **Government contractors** | Air-gapped environments — cloud AI is not an option |
+| **Enterprises (500+ employees)** | Cost predictability — flat monthly vs per-token billing at scale |
+| **Privacy-first companies** | Structural privacy as a competitive advantage and brand promise |
 
 **[→ venzari.co/engine](https://venzari.co/engine)** · **[→ docs.venzari.co/engine](https://docs.venzari.co/engine)**
 
@@ -496,49 +570,42 @@ The agent does it using 4 existing skills: `crm_query`, `calculate_growth`, `for
 
 The agent routes inference across 8 providers automatically:
 
-`Local inference` → `Groq` → `Gemini` → `OpenRouter` → `Cerebras` → `Anthropic` → `OpenAI` → `Bedrock`
+| Provider | Speed | Config | When Used |
+|----------|-------|--------|-----------|
+| **Local inference** | Free, private, zero-config | Fast prompts ≤1,200 tokens | Primary path — always tried first |
+| **Groq** | Fast inference | External provider, free API tier | Fallback when local fails or times out |
+| **Gemini** | External provider | Free API tier available | Secondary cloud fallback |
+| **OpenRouter** | Broad model access | Multiple model providers | When specific model needed |
+| **Cerebras** | Ultra-fast inference | Specialized hardware | Speed-critical prompts |
+| **Anthropic** | Claude models | External provider | Claude-specific requirements |
+| **OpenAI** | GPT models | External provider | When GPT-4/Turbo needed |
+| **Bedrock** | AWS enterprise | Enterprise pricing | Company already on AWS |
 
-**Circuit breaker:** 3 failures from a provider → bypass it, try next provider, auto-recovery probe after cooldown
+**Circuit breaker:** 3 failures → provider bypassed, auto-recovery after cooldown
 
-**Budget monitor:** approaching session budget limit → downgrade to cheaper model tier, alert user
+**Budget monitor:** auto-downgrades model tier at 80% of session budget
 
 **ENGINE integration:** if VENZARI ENGINE is installed, all calls route through ENGINE's local AI gateway with zero configuration
 
-<details>
-<summary><strong>Why 8 providers, not one</strong> — Click to expand</summary>
+### Pricing Tiers
 
-<br/>
+| Tier | Price | What You Get |
+|------|-------|--------------|
+| **Starter** | $29/mo | Full agent, all 2,212 skills, 1 channel, unlimited memory |
+| **Pro** | $99/mo | All 6 channels, dashboard, team sharing, priority support |
+| **Team** | $299/mo | Multi-agent support, custom skills, dedicated infrastructure, API access |
 
-**Different providers for different needs:**
+> **Note:** There is no free tier. All tiers require an active paid subscription.
 
-- **Local inference** for privacy and zero cost (if you have GPU capacity)
-- **Groq** for speed (Llama models at 500+ tokens/sec)
-- **Gemini** for free tier capacity and long context
-- **OpenRouter** for model variety and fallback
-- **Cerebras** for ultra-fast inference (1,800 tokens/sec on Llama-3.3-70B)
-- **Anthropic** for Claude Opus/Sonnet/Haiku (highest quality reasoning)
-- **OpenAI** for GPT-4o (best for structured output and function calling)
-- **Bedrock** for enterprise compliance (AWS-hosted models)
+### Who Uses AI AGENT
 
-**You configure all 8 once. The agent picks the right one for each task automatically.**
-
-</details>
-
-### What Ships With Every Install
-
-```
-✅  422 tests passing  ·  0 failing
-✅  Native desktop app (Tauri v2) — 5 tabs: Chat, Skills, Memory, Channels, Settings
-✅  System tray integration — macOS menu bar, Windows taskbar, Linux notification area
-✅  9-page dashboard at agent.venzari.co — including unique AI Router page showing live provider status
-✅  12 MCP tools for Claude Code, Cursor, Kiro, Windsurf, VS Code, Gemini CLI
-✅  `venzari-agent` CLI — 15+ commands: start, stop, restart, doctor, skills, memory, channels, logs, upgrade, config
-✅  Auto-wires to VENZARI ENGINE and VENZARI CODE if co-installed
-```
-
-<blockquote style="border-left:4px solid #3251FC;padding-left:1rem;margin:1.5rem 0;color:rgba(253,251,249,.85);">
-  <strong style="color:#3251FC;">💰 Pricing:</strong> Starter $29/mo (1 channel, 1K skills) | Pro $99/mo (6 channels, 2.2K skills, priority support) | Team $299/mo (unlimited channels, custom skills, dedicated infrastructure)
-</blockquote>
+| User Type | Why They Use AI AGENT |
+|-----------|----------------------|
+| **Solo founders** | Always-on assistant that learns their business over time |
+| **Remote teams** | One agent accessible across all communication channels |
+| **Customer support** | Agent handles common questions 24/7 across Slack, email, Discord |
+| **Sales teams** | Agent pulls CRM data, drafts proposals, tracks follow-ups automatically |
+| **VENZARI ecosystem users** | Natural language interface to their entire private AI stack |
 
 **[→ venzari.co/products/venzari-ai-agent](https://venzari.co/products/venzari-ai-agent)** · **[→ docs.venzari.co/agent](https://docs.venzari.co/agent)**
 
@@ -549,6 +616,19 @@ The agent routes inference across 8 providers automatically:
 > **[venzari.co/together](https://venzari.co/together)** · *CODE + ENGINE on one machine, zero cloud inference*
 
 Two products. One installer. Fully wired. CODE routes all AI inference through ENGINE's local AI gateway. No cloud calls for development. Offline after installation.
+
+### Architecture
+
+```
+Your Machine
+  ├── venzari-code CLI → routes to
+  │       ▼
+  ├── ENGINE gateway
+  │       ▼
+  ├── Local inference ← local models (qwen, llama, etc.)
+  ├── ENGINE Dashboard
+  └── ~/.venzari-together/ ← Together config dir
+```
 
 **What auto-wires:**
 
@@ -571,6 +651,18 @@ Two products. One installer. Fully wired. CODE routes all AI inference through E
 
 White-label deployment of the complete VENZARI ecosystem under your brand. Your logo. Your domain. Your color scheme. Your onboarding flow.
 
+| Dimension | Enterprise Platforms | VENZARI ENTERPRISE |
+|-----------|---------------------|---------------------|
+| **Price** | $100,000+/year | $5,988/year ($499/mo) |
+| **Implementation** | 3–6 months | 20 minutes |
+| **Channels** | Varies (often limited) | 6 live channels |
+| **Learning loop** | None | Active nightly loop |
+| **CLI binary** | ❌ | ✅ |
+| **Desktop app** | ❌ | ✅ |
+| **MCP server** | ❌ | ✅ 12 tools |
+| **ENGINE/CODE integration** | ❌ | ✅ Auto-wired |
+| **Ecosystem** | Single-vendor lock-in | VENZARI full stack |
+
 **What's included:**
 
 - **Custom skill development** — we build the skills your team needs
@@ -587,26 +679,69 @@ White-label deployment of the complete VENZARI ecosystem under your brand. Your 
 - Enterprises with 100+ developers (managed CODE fleet, centralized governance)
 - Government/defense contractors (air-gapped deployment, compliance support)
 
+<blockquote style="border-left:4px solid #FF38D4;padding-left:1rem;margin:1.5rem 0;color:rgba(253,251,249,.85);">
+  <strong style="color:#FF38D4;">💼 Contact for Enterprise:</strong> <a href="https://venzari.co/contact" style="color:#FF38D4;">venzari.co/contact</a> or email <a href="mailto:venzariai@gmail.com" style="color:#FF38D4;">venzariai@gmail.com</a>
+</blockquote>
+
 **[→ venzari.co/enterprise](https://venzari.co/enterprise)** · **[→ venzari.co/contact](https://venzari.co/contact)**
 
 ---
 
-## Comparison — Their Way vs VENZARI
+## Category Design Comparison
 
-| Question | Cloud AI + Copilot + Chatbot | **VENZARI** |
-|----------|-------------------------------|-------------|
-| **Where does the data go?** | Vendor's cloud | **Your server** |
-| **What's the privacy guarantee?** | Policy document (can change) | **Architecture (cannot change)** |
-| **What does it cost?** | Per-token, no ceiling | **Flat monthly** |
-| **Does it remember you?** | Session only — starts over tomorrow | **Everything. Permanently. Across channels.** |
-| **Is AI development governed?** | No record, no enforcement | **13 modes, evidence per commit, audit trail** |
-| **How long to set up?** | API key (minutes) or build-your-own (months) | **20 minutes** |
-| **What do you own?** | Nothing | **The binary, the data, the future** |
-| **Works offline?** | No | **Yes** |
-| **Can the vendor access your data?** | Yes | **No mechanism exists** |
-| **Multi-channel agent?** | No — one channel only | **6 channels, one memory** |
-| **Learning loop?** | No | **Nightly skill creation and improvement** |
-| **Model routing?** | Manual selection | **8 providers, automatic selection** |
+> **VENZARI doesn't compete in existing categories. We create new ones.**
+
+<details>
+<summary><strong>vs. Cloud AI APIs (OpenAI, Anthropic, Google AI)</strong></summary>
+
+<br/>
+
+| Dimension | Cloud AI APIs | **VENZARI ENGINE** |
+|-----------|---------------|---------------------|
+| **Data location** | Vendor's cloud | **Your server** |
+| **Privacy model** | Policy (can change) | **Architecture (cannot change)** |
+| **Vendor can access data** | Yes | **No mechanism exists** |
+| **Cost model** | Per-token, no ceiling | **Flat monthly** |
+| **Works offline** | No | **Yes** |
+| **Setup time** | Minutes (API key) | **20 minutes** |
+| **What you own** | Nothing | **Binary + data** |
+
+</details>
+
+<details>
+<summary><strong>vs. AI Coding Assistants (Copilot, Cursor, Cody)</strong></summary>
+
+<br/>
+
+| Dimension | Copilot / Cursor | **VENZARI CODE** |
+|-----------|------------------|-------------------|
+| **Category** | Tool | **Operating System** |
+| **Memory** | Session only | **Permanent, project-scoped** |
+| **Governance** | None | **13-mode lifecycle** |
+| **Evidence** | None | **Required per completion** |
+| **Audit trail** | None | **Immutable per commit** |
+| **Loop detection** | None | **3-strike escalation** |
+| **Self-improvement** | None | **Correction-based learning** |
+
+</details>
+
+<details>
+<summary><strong>vs. AI Chatbots (ChatGPT, Claude.ai)</strong></summary>
+
+<br/>
+
+| Dimension | ChatGPT / Claude | **VENZARI AI AGENT** |
+|-----------|------------------|----------------------|
+| **Memory** | Session only | **Permanent, 3-signal, cross-channel** |
+| **Channels** | 1 (web) | **6 simultaneously** |
+| **Learning** | None | **Nightly skill creation** |
+| **Skills** | Implicit | **2,212 auto-invoked** |
+| **CLI** | No | **15+ commands** |
+| **Desktop app** | No | **Tauri v2** |
+| **MCP tools** | No | **12 tools** |
+| **Price** | $20/mo | **$29/mo** |
+
+</details>
 
 ---
 

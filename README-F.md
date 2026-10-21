@@ -22,6 +22,14 @@
     <a href="https://discord.gg/venzari"><img src="https://img.shields.io/badge/Discord-Join%20Us-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/></a>
     <a href="https://venzari.co/jobs"><img src="https://img.shields.io/badge/Careers-We're%20Hiring-FF38D4?style=for-the-badge" alt="Careers"/></a>
   </p>
+
+  <p>
+    <img src="https://img.shields.io/badge/CODE-1%2C508%20Tests%20Passing-00D26A?style=flat-square&logo=pytest" alt="CODE Tests"/>
+    <img src="https://img.shields.io/badge/ENGINE-2%2C301%20Tests-00D26A?style=flat-square" alt="ENGINE Tests"/>
+    <img src="https://img.shields.io/badge/AGENT-422%20Tests%20Passing-00D26A?style=flat-square" alt="AGENT Tests"/>
+    <img src="https://img.shields.io/badge/Status-Production-00D26A?style=flat-square" alt="Status"/>
+    <img src="https://img.shields.io/github/stars/venzari-ai/venzari?style=social" alt="GitHub stars"/>
+  </p>
 </div>
 
 ---
@@ -164,7 +172,7 @@ Permanent memory, 6 channels simultaneously, learns nightly, 2,212 skills auto-i
 
 | # | Feature | What You Get |
 |---|---------|--------------|
-| 1 | **Conversational AI + permanent memory** | Builds cumulative understanding of your business across thousands of interactions. Semantic search: *"What did we discuss about Acme in March?"* → instant answer. |
+| 1 | **Conversational AI + permanent memory** | Builds cumulative understanding of your business across thousands of interactions. Semantic search: <em>"What did we discuss about Acme in March?"</em> → instant answer. |
 | 2 | **Local voice (TTS + STT)** | Offline synthesis and recognition. Voice data never leaves your server. Piper (TTS) and Whisper (STT) models run locally. |
 | 3 | **Workflow automation** | Reports, email, CRM updates, calendar, ticketing. All local. No external API calls required. Scheduled tasks, triggered workflows. |
 | 4 | **Web dashboard** | Full UI served at your domain. Chat interface, memory search, voice playground, workflow designer, system monitoring. |
@@ -249,6 +257,17 @@ Binary (verified download) → models → service startup → health checks → 
 </table>
 
 **Status:** v1.0.0 · All 33 phases complete · Launched 2026-09-05
+
+### Who Uses ENGINE
+
+| User Type | Why ENGINE |
+|-----------|-----------|
+| **Healthcare** | HIPAA compliance — data never leaves infrastructure |
+| **Legal** | Attorney-client privilege — cannot risk cloud AI |
+| **Financial** | Regulatory — transaction data cannot go to third parties |
+| **Government** | Air-gapped environments — cloud not an option |
+| **Enterprise (500+)** | Cost predictability at scale |
+| **Privacy-first** | Structural privacy as competitive advantage |
 
 **[→ venzari.co/engine](https://venzari.co/engine)** · **[→ docs.venzari.co/engine](https://docs.venzari.co/engine)**
 
@@ -397,6 +416,16 @@ Binary (verified download) → models → service startup → health checks → 
 - ✅ **6 languages** — Python, TypeScript, JavaScript, Go, Rust, Ruby
 - ✅ **4-job security CI** — dependency audit, secret scan, license check, SBOM
 
+### Who Uses CODE
+
+| User Type | Why CODE |
+|-----------|----------|
+| **Solo devs** | Governance without a team |
+| **Small teams (2–10)** | Consistent standards without heavy process |
+| **Agencies** | Audit trails for client work |
+| **Enterprises** | Regulatory compliance requires proof |
+| **OSS maintainers** | Manage AI contributions with evidence |
+
 **[→ venzari.co/code](https://venzari.co/code)** · **[→ docs.venzari.co/code](https://docs.venzari.co/code)**
 
 ---
@@ -512,7 +541,16 @@ You go to sleep with an agent. You wake up with a better one.
 
 **8-provider model router:**
 
-Local → Groq → Gemini → OpenRouter → Cerebras → Anthropic → OpenAI → Bedrock
+| Provider | Speed | When Used |
+|----------|-------|-----------|
+| Local | Free, private | Primary — always first |
+| Groq | Fast inference | Fallback when local fails |
+| Gemini | Free tier | Secondary cloud fallback |
+| OpenRouter | Broad access | Specific model needed |
+| Cerebras | Ultra-fast | Speed-critical |
+| Anthropic | Claude | Claude-specific |
+| OpenAI | GPT | GPT-4/Turbo needed |
+| Bedrock | AWS | Already on AWS |
 
 Circuit breaker (3 failures → bypass) · Budget monitor (downgrade at 80%) · ENGINE: auto-routes through local gateway
 
@@ -523,6 +561,16 @@ Circuit breaker (3 failures → bypass) · Budget monitor (downgrade at 80%) · 
 | **Starter** | $29 | 1 | 1,000 | Email |
 | **Pro** | $99 | 6 | 2,212 | Priority |
 | **Team** | $299 | Unlimited | Custom | Dedicated |
+
+### Who Uses AI AGENT
+
+| User Type | Why AI AGENT |
+|-----------|-------------|
+| **Solo founders** | Always-on assistant learning their business |
+| **Remote teams** | One agent across all communication |
+| **Support teams** | 24/7 across Slack, email, Discord |
+| **Sales teams** | Auto CRM, drafts, follow-ups |
+| **VENZARI users** | Natural language interface to stack |
 
 **[→ venzari.co/products/venzari-ai-agent](https://venzari.co/products/venzari-ai-agent)** · **[→ docs.venzari.co/agent](https://docs.venzari.co/agent)**
 
@@ -539,6 +587,19 @@ Requirements: 8 GB RAM minimum (16 GB recommended), 20 GB disk, Ubuntu 20.04+
 **Enterprise** — [venzari.co/enterprise](https://venzari.co/enterprise)
 
 White-label deployment under your brand. Custom skill development. Managed fleet. Dedicated infrastructure. Direct team access. Full SLA.
+
+### Enterprise Comparison
+
+| Dimension | Enterprise Platforms | VENZARI ENTERPRISE |
+|-----------|---------------------|---------------------|
+| **Price** | $100,000+/year | $5,988/year ($499/mo) |
+| **Implementation** | 3–6 months | 20 minutes |
+| **Channels** | Limited | 6 live |
+| **Learning loop** | None | Nightly |
+| **CLI** | ❌ | ✅ |
+| **Desktop app** | ❌ | ✅ |
+| **MCP tools** | ❌ | ✅ 12 tools |
+| **Ecosystem** | Lock-in | Full stack |
 
 **[→ venzari.co/contact](https://venzari.co/contact)** — Schedule a call
 
