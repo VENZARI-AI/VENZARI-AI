@@ -486,16 +486,16 @@ Return months later. CODE reads the companion and knows where you left off. When
 │              2026-09-05                      │
 ├──────────────────────────────────────────────┤
 │                                              │
-│  🧠 Conversational AI + Permanent Memory    │
-│  🎙️ Local Voice (TTS + STT)                 │
-│  ⚙️ Workflow Automation                     │
+│  🧠 Conversational AI + Permanent Memory     │
+│  🎙️ Local Voice (TTS + STT)                  │
+│  ⚙️ Workflow Automation                      │
 │  🌐 Web Dashboard at your domain             │
 │  🔌 REST API — connect your systems          │
 │  🔎 Semantic Memory Search                   │
 │  🎓 Custom Fine-Tuning (Growth+)             │
 │                                              │
 │  Installer: 11 checks · 7 questions          │
-│  17 steps · 2,301 tests · Resumable         │
+│  17 steps · 2,301 tests · Resumable          │
 │                                              │
 └──────────────────────────────────────────────┘
 ```
