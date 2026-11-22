@@ -9,7 +9,7 @@
   </pre>
 
   <h1 style="font-family:'Unbounded',sans-serif;font-size:clamp(3rem,8vw,5rem);font-weight:800;color:#FDFBF9;letter-spacing:-0.02em;margin:1rem 0;">
-    VENZARI
+    VENZARI AI
   </h1>
   <p style="font-family:'Poppins',sans-serif;font-size:1.25rem;color:rgba(253,251,249,.6);line-height:1.6;max-width:640px;margin:0 auto 2rem;">
     <strong style="color:#FDFBF9;">Stop renting.</strong> Start owning.
