@@ -30,6 +30,15 @@
   </p>
 </div>
 
+#### _Read this in other languages:_
+<kbd>[🇺🇸 English](README.md)</kbd>
+<kbd>[🇪🇸 Español](translations/README.es.md)</kbd>
+<kbd>[🇫🇷 Français](translations/README.fr.md)</kbd>
+<kbd>[🇩🇪 Deutsch](translations/README.de.md)</kbd>
+<kbd>[🇵🇹 Português](translations/README.pt.md)</kbd>
+<kbd>[🇨🇳 中文](translations/README.zh-cn.md)</kbd>
+<kbd>[🇯🇵 日本語](translations/README.ja.md)</kbd>
+
 ---
 
 ## 🛠️ VENZARI CODE — The Engineering OS That Governed AI
@@ -191,7 +200,7 @@ Total: **2,212 real skills** invoked automatically based on what you ask. No exp
 
 </details>
 
-**[vzari.co/products/venzari-ai-agent →](https://venzari.co/products/venzari-ai-agent)**
+**[venzari.co/products/venzari-ai-agent →](https://venzari.co/products/venzari-ai-agent)**
 
 ---
 
@@ -256,8 +265,6 @@ Total: **2,212 real skills** invoked automatically based on what you ask. No exp
 
 ## 🎯 The Installer — Your Personal CTO
 
-> **The most incredible thing is the way our VENZARI INSTALLER handles all the hard setup and config — like you have hired your own VENZARI CTO to get it done and working all on its own, stiff like that it should be written in the style of the ad creator \GARY BRIGGS.**
-
 The VENZARI INSTALLER handles:
 
 - ✅ **11 parallel pre-install checks** — any failure stops and tells you exactly what to fix
@@ -268,9 +275,7 @@ The VENZARI INSTALLER handles:
 
 > **The installer is the product.** It makes enterprise-grade AI infrastructure available to companies that could never build it themselves.
 
-> **Written in the style of Gary Briggs — "CONTENT IS KING"**
 
-> **You've hired your own VENZARI CTO. The installer handles all hard setup and config automatically.**
 
 ---
 
@@ -358,7 +363,7 @@ The VENZARI INSTALLER handles:
 ├─────────────┴───────────────────────┴────────────────────┤
 │                                                          │
 │              VENZARI ENTERPRISE                          │
-│     White-label · SLA · Dedicated infrastructure         │
+│     SLA · Dedicated infrastructure         │
 │         Custom skills · Managed fleet                    │
 └──────────────────────────────────────────────────────────┘
 ```
@@ -452,7 +457,7 @@ Return months later. CODE reads the companion and knows where you left off. When
 
 ```
 ┌──────────────────────────────────────────────┐
-│           VENZARI ENGINE v1.0.0              │
+│              VENZARI ENGINE                  │
 │        33 phases complete · Launched         │
 │              2026-09-05                      │
 ├──────────────────────────────────────────────┤
@@ -556,7 +561,7 @@ Local → Groq → Gemini → OpenRouter → Cerebras → Anthropic → OpenAI �
 CODE + ENGINE on one machine. Fully wired. CODE routes all inference through ENGINE's local AI gateway. No cloud calls for development. Offline after install.
 
 **Enterprise** — [venzari.co/enterprise](https://venzari.co/enterprise)
-White-label deployment under your brand. Dedicated infrastructure. Custom skill development. Managed fleet. Full SLA. [Contact →](https://venzari.co/contact)
+Dedicated infrastructure. Custom skill development. Managed fleet. Full SLA. [Contact →](https://venzari.co/contact)
 
 ---
 
@@ -579,7 +584,7 @@ White-label deployment under your brand. Dedicated infrastructure. Custom skill 
 
 **→ [venzari.co/pricing](https://venzari.co/pricing)** — all products, all tiers
 **→ [docs.venzari.co](https://docs.venzari.co)** — full documentation
-**→ [venzari.co/enterprise](https://venzari.co/enterprise)** — white-label and dedicated
+**→ [venzari.co/enterprise](https://venzari.co/enterprise)** — dedicated
 **→ [venzari.co/contact](https://venzari.co/contact)** — talk to the team
 
 [venzari.co](https://venzari.co) · [Solutions](https://venzari.co/solutions) · [Jobs](https://venzari.co/jobs) · [Discord](https://discord.gg/venzari)
@@ -662,7 +667,7 @@ A complete AI system — conversational AI, voice, automation, dashboard, API, s
 
 2,301 automated tests. Resumable at any point. Offline after install.
 
-**v1.0.0 · All 33 phases complete · Launched 2026-09-05**
+**Launched 2026-09-05**
 
 [**→ venzari.co/engine**](https://venzari.co/engine)
 
@@ -693,10 +698,10 @@ Chatbots are stateless. They answer questions and forget you. VENZARI AI AGENT i
 ## 🔗 VENZARI Together + Enterprise
 
 **Together** — [venzari.co/together](https://venzari.co/together)
-CODE + ENGINE on one machine, fully wired. CODE routes all AI inference through ENGINE's local AI gateway. No cloud calls for development. Offline after install. 8 GB RAM minimum, 16 GB recommended. 20 GB disk. Ubuntu 20.04+.
+CODE + ENGINE on one machine, fully wired. CODE routes all AI inference through ENGINE's local AI gateway. No cloud calls for development. Offline after install. 8 GB RAM minimum, 16 GB recommended. 20 GB disk. Ubuntu 22.04 LTS or later.
 
 **Enterprise** — [venzari.co/enterprise](https://venzari.co/enterprise)
-White-label deployment of the complete VENZARI ecosystem under your brand. Custom skill development. Managed fleet. Dedicated infrastructure. Direct team access. Full SLA.
+Custom skill development. Managed fleet. Dedicated infrastructure. Direct team access. Full SLA.
 
 ---
 
@@ -729,7 +734,7 @@ White-label deployment of the complete VENZARI ecosystem under your brand. Custo
 
 **→ [venzari.co/pricing](https://venzari.co/pricing)** — all products, all tiers
 **→ [docs.venzari.co](https://docs.venzari.co)** — full documentation
-**→ [venzari.co/enterprise](https://venzari.co/enterprise)** — white-label and dedicated
+**→ [venzari.co/enterprise](https://venzari.co/enterprise)** — dedicated
 **→ [venzari.co/contact](https://venzari.co/contact)** — talk to the team
 
 [venzari.co](https://venzari.co) · [Solutions](https://venzari.co/solutions) · [Jobs](https://venzari.co/jobs) · [Discord](https://discord.gg/venzari)
