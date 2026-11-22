@@ -31,14 +31,6 @@
 </div>
 
 ---
- <!-- Main Title -->
-  <h1 style="font-family: 'Unbounded', sans-serif; font-size: clamp(3rem, 8vw, 5rem); font-weight: 800; color: #FDFBF9; letter-spacing: -0.02em; margin: 1rem 0;">
-    VENZARI
-  </h1>
-  <p style="font-family: 'Poppins', sans-serif; font-size: 1.25rem; color: rgba(253,251,249,.6); line-height: 1.6; max-width: 600px; margin: 0 auto 3rem;">
-    You've been renting your engineering OS and intelligence layer without noticing. VENZARI changes that. We don't sell you access — we sell you the whole exit.
-  </p>
-
   <!-- Installer CTA -->
   <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin: 2rem 0;">
     <a href="https://install.venzari.xyz/agent" style="
