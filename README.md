@@ -31,25 +31,6 @@
 </div>
 
 ---
-  <!-- Installer CTA -->
-  <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin: 2rem 0;">
-    <a href="https://install.venzari.xyz/agent" style="
-      display: inline-flex; align-items: center; justify-content: center; border-radius: 8px; padding: 12px 28px; 
-      background: linear-gradient(90deg, #A259FF, #C1FF00); color: #04111f; font-weight: 800; 
-      text-decoration: none; font-family: 'Poppins', sans-serif; font-size: 1rem;">
-      🚀 Install VENZARI AI AGENT in Under 6 Minutes
-    </a>
-    <a href="https://install.venzari.xyz/engine" style="
-      display: inline-flex; align-items: center; justify-content: center; border-radius: 8px; padding: 12px 28px; 
-      background: #0A102F; color: #5EE7FF; font-weight: 800; 
-      text-decoration: none; font-family: 'Poppins', sans-serif; font-size: 1rem;">
-      ⚙️ Install Private AI Engine
-    </a>
-  </div>
-
-</div>
-
-<br/>
 
 ## 🛠️ VENZARI CODE — The Engineering OS That Governed AI
 
