@@ -1,26 +1,3 @@
-# Own Your AI — Engineering OS, Private AI, Multi-Channel Agent
-
-<div align="center">
-
-  <!-- Hero Badges -->
-  <a href="https://venzari.co">
-    <img src="https://img.shields.io/badge/venzari.co-#3254FC?style=for-the-badge&logoColor=white" alt="venzari.co"/>
-  </a>
-  <a href="https://venzari.co/code">
-    <img src="https://img.shields.io/badge/VENZARI%20CODE-Engineering%20OS-#A259FF?style=for-the-badge" alt="VENZARI CODE"/>
-  </a>
-  <a href="https://venzari.co/engine">
-    <img src="https://img.shields.io/badge/VENZARI%20ENGINE-Private%20AI-#C1FF00?style=for-the-badge" alt="VENZARI ENGINE"/>
-  </a>
-  <a href="https://venzari.co/products/venzari-ai-agent">
-    <img src="https://img.shields.io/badge/VENZARI%20AI%20AGENT-Multi-Channel-#3254FC?style=for-the-badge" alt="VENZARI AI AGENT"/>
-  </a>
-  <a href="https://venzari.co/together">
-    <img src="https://img.shields.io/badge/VENZARI%20TOGETHER-One%20Stack-#3254FC?style=for-the-badge" alt="VENZARI TOGETHER"/>
-  </a>
-
-  <br/>
-
   <!-- Main Title -->
   <h1 style="font-family: 'Unbounded', sans-serif; font-size: clamp(3rem, 8vw, 5rem); font-weight: 800; color: #FDFBF9; letter-spacing: -0.02em; margin: 1rem 0;">
     VENZARI
