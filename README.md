@@ -357,7 +357,6 @@ The VENZARI INSTALLER handles:
 <br/>
 
 ---
----
 
 > [!NOTE]
 > All three products auto-wire together. ENGINE provides the local AI gateway. CODE routes inference through it. AI AGENT connects to both. One ecosystem — zero manual configuration.
